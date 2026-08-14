@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mercor — Competitive Intelligence Dossier</title>
+<meta name="description" content="Competitive intelligence dossier on Mercor and the AI expert-data / human-feedback market: Scale AI, Surge AI, Micro1, Handshake AI, Turing, Invisible Technologies.">
+<style>
+  :root{
+    --bg:#f6f7f9; --panel:#ffffff; --ink:#12161f; --muted:#5b6472; --line:#e4e7ec;
+    --navy:#0b1220; --navy2:#141d2f; --accent:#2563eb; --accent-ink:#0b3fae;
+    --high:#0f8a4b; --high-bg:#e7f6ee; --med:#b4680a; --med-bg:#fdf1de; --conf:#c0261f; --conf-bg:#fdeceb;
+    --tag-critical:#c0261f; --tag-high:#0b3fae; --tag-medium:#6b6f76;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;}
+  a{color:var(--accent-ink)}
+  .wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+  header.hero{background:radial-gradient(1200px 500px at 20% -10%, #1c2a45 0%, var(--navy) 55%, #070a12 100%);color:#eef1f6;padding:64px 0 48px;}
+  header.hero .eyebrow{color:#9fb4e8;letter-spacing:.08em;text-transform:uppercase;font-size:12px;font-weight:700;margin-bottom:14px}
+  header.hero h1{font-size:clamp(32px,5vw,52px);line-height:1.1;margin:0 0 14px;font-weight:800;letter-spacing:-0.02em}
+  header.hero p.lede{font-size:18px;color:#c7d0e0;max-width:680px;margin:0 0 28px}
+  .statbar{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1px;background:#28324a;border:1px solid #28324a;border-radius:12px;overflow:hidden;margin-top:8px}
+  .statbar div{background:#101827;padding:16px 18px}
+  .statbar .num{font-size:22px;font-weight:800;color:#fff}
+  .statbar .lbl{font-size:12px;color:#93a0ba;margin-top:4px}
+  nav.subnav{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
+  nav.subnav .wrap{display:flex;gap:22px;overflow-x:auto;padding:12px 24px}
+  nav.subnav a{white-space:nowrap;color:var(--muted);text-decoration:none;font-size:14px;font-weight:600}
+  nav.subnav a:hover{color:var(--ink)}
+  section{padding:52px 0}
+  section.alt{background:var(--panel);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  h2.h{font-size:26px;font-weight:800;letter-spacing:-.01em;margin:0 0 6px}
+  p.sub{color:var(--muted);margin:0 0 28px;max-width:760px}
+  .badge{display:inline-block;font-size:11px;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 8px;border-radius:999px}
+  .badge.high{background:var(--high-bg);color:var(--high)}
+  .badge.med{background:var(--med-bg);color:var(--med)}
+  .badge.conf{background:var(--conf-bg);color:var(--conf)}
+  .badge.crit{background:#fdeceb;color:var(--tag-critical)}
+  .badge.valh{background:#eaf0fd;color:var(--tag-high)}
+  .badge.valm{background:#eef0f2;color:var(--tag-medium)}
+  .grid{display:grid;gap:18px}
+  .grid.cols-3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+  .grid.cols-2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+  .card.featured{border-color:#c9d6f7;box-shadow:0 0 0 1px #c9d6f7 inset, 0 8px 24px -12px rgba(37,99,235,.25)}
+  .card h3{margin:0 0 4px;font-size:19px;font-weight:800}
+  .card .tagline{color:var(--muted);font-size:13.5px;margin-bottom:14px}
+  .kv{display:flex;justify-content:space-between;gap:12px;font-size:13.5px;padding:7px 0;border-top:1px solid var(--line)}
+  .kv:first-of-type{border-top:none}
+  .kv .k{color:var(--muted)}
+  .kv .v{font-weight:700;text-align:right}
+  .card .note{margin-top:14px;font-size:13.5px;color:#333}
+  .tagrow{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+  .risk{background:#fff8f2;border:1px solid #f3d9bb;border-left:4px solid var(--med);border-radius:10px;padding:18px 20px;margin-bottom:16px}
+  .risk h4{margin:0 0 6px;font-size:15.5px}
+  .risk.severe{border-left-color:var(--conf);background:#fdf3f2;border-color:#f4c9c5}
+  .timeline{border-left:2px solid var(--line);margin-left:8px;padding-left:24px}
+  .tl-item{position:relative;padding-bottom:24px}
+  .tl-item:last-child{padding-bottom:0}
+  .tl-item::before{content:"";position:absolute;left:-29px;top:4px;width:10px;height:10px;border-radius:50%;background:var(--accent)}
+  .tl-item .date{font-size:12px;font-weight:800;color:var(--accent-ink);text-transform:uppercase;letter-spacing:.03em}
+  .tl-item .title{font-weight:700;margin:2px 0 3px}
+  .tl-item .desc{color:var(--muted);font-size:14px}
+  table{width:100%;border-collapse:collapse;font-size:14px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:700;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+  .people-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+  .person{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+  .person .name{font-weight:800;font-size:15px}
+  .person .role{color:var(--muted);font-size:13px;margin-bottom:8px}
+  .person .fact{font-size:13px}
+  footer{padding:44px 0 60px;color:var(--muted);font-size:13.5px}
+  footer .legend span{display:inline-flex;align-items:center;gap:6px;margin-right:18px}
+  footer .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+  .dot.high{background:var(--high)} .dot.med{background:var(--med)} .dot.conf{background:var(--conf)}
+  code{background:#eef0f3;padding:1px 5px;border-radius:4px;font-size:.9em}
+  .src{margin-top:12px}
+  .src a{font-size:12.5px;color:var(--muted);text-decoration:none;border-bottom:1px dotted var(--line)}
+  .src a:hover{color:var(--accent-ink)}
+  @media (max-width:640px){ section{padding:36px 0} header.hero{padding:44px 0 32px} }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div class="eyebrow">Competitive Intelligence Dossier · Updated 2026-08-14</div>
+    <h1>Mercor</h1>
+    <p class="lede">Positioning and durability in the AI expert-data / human-feedback market, amid the post-Scale/Meta "neutrality" land-grab — including the March 2026 security breach and the Deeptune self-dealing flag.</p>
+    <div class="statbar">
+      <div><div class="num">$10B → $20B*</div><div class="lbl">Valuation (Oct 2025 → talks Jul 2026)</div></div>
+      <div><div class="num">~$2B</div><div class="lbl">Run-rate, mid-2026 (from ~$75M Feb 2025)</div></div>
+      <div><div class="num">2023</div><div class="lbl">Founded, San Francisco</div></div>
+      <div><div class="num">30K+</div><div class="lbl">Active expert contractors, 45+ countries</div></div>
+    </div>
+  </div>
+</header>
+
+<nav class="subnav">
+  <div class="wrap">
+    <a href="#summary">Summary</a>
+    <a href="#companies">Companies</a>
+    <a href="#risks">Risk Flags</a>
+    <a href="#trends">Trends</a>
+    <a href="#funding">Funding</a>
+    <a href="#people">People</a>
+    <a href="#methodology">Methodology</a>
+  </div>
+</nav>
+
+<section id="summary">
+  <div class="wrap">
+    <h2 class="h">Executive Summary</h2>
+    <p class="sub">The short version — see the full vault for sourced detail.</p>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Fastest grower, on the back of one shock</h3>
+        <p class="note">Mercor's ARR climbed from ~$75M (Feb 2025) to a reported ~$2B run-rate (mid-2026), largely tracking the window after Meta's $14.3B stake in Scale AI (Jun 2025) broke Scale's neutrality and sent lab spend to "neutral" vendors. Most of Mercor's growth is market reallocation, not proven durable share.</p>
+      </div>
+      <div class="card">
+        <h3>Mercor's actual edge</h3>
+        <p class="note">Not raw scale — Surge AI and Turing are comparably or more capital-efficient. Mercor's differentiated claim is the credentialed-expert niche (doctors, lawyers, PhDs) plus an AI-vetting/matching flywheel. Micro1 runs a near-identical model at ~1/7th the scale, the best available read on whether this is company-specific or category-wide.</p>
+      </div>
+      <div class="card">
+        <h3>Two live risk flags</h3>
+        <p class="note">A March 2026 supply-chain breach (poisoned <code>LiteLLM</code> package) cost Mercor its Meta contract and exposed up to 4TB of data. Separately, CEO Foody personally invested in Deeptune before having Mercor acquire it three months later — a governance flag, not an allegation of wrongdoing.</p>
+      </div>
+      <div class="card">
+        <h3>Field is more contested than the headlines suggest</h3>
+        <p class="note">Scale AI's own 2026 revenue guidance (~$1B, down from ~$2B in 2025) is the clearest quantified evidence of value transferred to challengers — but Scale isn't exiting, it's pivoting to enterprise deployment (Mayo Clinic, Pentagon cited). Six credible players are now splitting frontier-lab budgets.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="companies">
+  <div class="wrap">
+    <h2 class="h">Company Landscape</h2>
+    <p class="sub">Mercor and the six competitors profiled in this pass. Confidence tags reflect source verification, not company quality.</p>
+
+    <div class="grid cols-3">
+      <div class="card featured">
+        <div class="tagrow"><span class="badge crit">Focus Entity</span><span class="badge high">Confidence: High</span></div>
+        <h3>Mercor</h3>
+        <div class="tagline">Credentialed-expert marketplace for RLHF / post-training data</div>
+        <div class="kv"><span class="k">Valuation</span><span class="v">$10B (talks: $20B)</span></div>
+        <div class="kv"><span class="k">Run-rate (2026)</span><span class="v">~$2B</span></div>
+        <div class="kv"><span class="k">Raised to date</span><span class="v">~$492M</span></div>
+        <div class="kv"><span class="k">Founded / HQ</span><span class="v">2023 · San Francisco</span></div>
+        <div class="kv"><span class="k">Customers</span><span class="v">OpenAI, Anthropic, DeepMind, Meta†</span></div>
+        <p class="note">†Meta paused its contract after the Mar 2026 breach. ~91% of H1 2026 revenue from foundation-model labs.</p>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">Core Competitor</span><span class="badge high">High</span></div>
+        <h3>Scale AI</h3>
+        <div class="tagline">Former category leader; 49% owned by Meta since Jun 2025</div>
+        <div class="kv"><span class="k">2025 revenue</span><span class="v">~$2B</span></div>
+        <div class="kv"><span class="k">2026 guidance</span><span class="v">~$1B</span></div>
+        <div class="kv"><span class="k">CEO</span><span class="v">Jason Droege (post-Wang)</span></div>
+        <p class="note">Google/OpenAI/xAI cut or reduced ties within weeks of the Meta deal. Pivoting toward enterprise-deployment clients (Mayo Clinic, Pentagon cited) as a second act.</p>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">Core Competitor</span><span class="badge high">High</span></div>
+        <h3>Surge AI</h3>
+        <div class="tagline">Bootstrapped RLHF generalist, ~1M annotators</div>
+        <div class="kv"><span class="k">Revenue</span><span class="v">$1.2–1.4B</span></div>
+        <div class="kv"><span class="k">Funding</span><span class="v">$0 (bootstrapped)</span></div>
+        <div class="kv"><span class="k">Employees</span><span class="v">~110–121</span></div>
+        <p class="note">Founder Edwin Chen retains ~75% ownership. Reportedly in fundraising talks (2025) at $24–30B — would end its no-VC neutrality claim. <span class="badge med">Med confidence on talks figure</span></p>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">Core Competitor</span><span class="badge high">High</span></div>
+        <h3>Turing</h3>
+        <div class="tagline">Coding-data specialist, profitable</div>
+        <div class="kv"><span class="k">ARR (blended)</span><span class="v">~$300M</span></div>
+        <div class="kv"><span class="k">Valuation</span><span class="v">$2.2B</span></div>
+        <div class="kv"><span class="k">Raised</span><span class="v">$225M</span></div>
+        <p class="note">Most capital-efficient venture-backed peer. ARR blends legacy talent-hiring revenue with AI-data revenue — not directly comparable to Mercor's AI-data-only figures.</p>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">Core Competitor</span><span class="badge high">High</span></div>
+        <h3>Micro1</h3>
+        <div class="tagline">Near-identical model to Mercor, smaller scale</div>
+        <div class="kv"><span class="k">ARR</span><span class="v">~$300M (Apr 2026)</span></div>
+        <div class="kv"><span class="k">Valuation</span><span class="v">$500M</span></div>
+        <div class="kv"><span class="k">Growth</span><span class="v">$7M → $300M in 16 mo.</span></div>
+        <p class="note">Also expanding into robotics training data and an AI-recruiting product ("Zara"). Best available "is Mercor's growth company-specific" comparison.</p>
+      </div>
+
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">Core Competitor</span><span class="badge med">Med</span></div>
+        <h3>Handshake AI</h3>
+        <div class="tagline">University-network incumbent, pivoted overnight</div>
+        <div class="kv"><span class="k">AI-unit revenue</span><span class="v">~$1B claimed*</span></div>
+        <div class="kv"><span class="k">Company valuation</span><span class="v">$3.5B (pre-pivot)</span></div>
+        <div class="kv"><span class="k">Launched</span><span class="v">Jan 2025</span></div>
+        <p class="note">*Top-line AI-unit revenue figures trace to aggregator/press pieces, not a confirmed primary source — two independent verification attempts failed (403, 503).</p>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:18px">
+      <div class="tagrow"><span class="badge valm">Secondary</span><span class="badge med">Med</span></div>
+      <h3 style="margin-bottom:2px">Invisible Technologies</h3>
+      <p class="note">Older (2015-founded) human-in-the-loop / AI-automation company; $144M raised total, $100M round Sep 2025. Handles full annotation pipeline (sourcing, training, QC, delivery). Broader BPO/automation roots than the 2023-era marketplace startups — lightly researched, candidate for a deeper pass. Snorkel AI is named in the same competitive set but not yet profiled.</p>
+    </div>
+  </div>
+</section>
+
+<section id="risks">
+  <div class="wrap">
+    <h2 class="h">Risk Flags</h2>
+    <p class="sub">The two events most relevant to any durability assessment of Mercor specifically.</p>
+
+    <div class="risk severe">
+      <h4>March 2026 — Supply-chain data breach</h4>
+      <p>A poisoned version of the open-source <code>LiteLLM</code> package, published to PyPI by threat actor "TeamPCP," harvested credentials for ~40 minutes and reportedly exposed up to 4TB of internal data — candidate PII, employer data, source code, API keys. <strong>Meta paused its Mercor contracts indefinitely.</strong> OpenAI investigated exposure but had not terminated as of reporting. A class-action lawsuit reportedly followed, affecting 40,000+ people.</p>
+    </div>
+
+    <div class="risk">
+      <h4>July 2026 — Deeptune acquisition, governance flag</h4>
+      <p>CEO Brendan Foody personally angel-invested in Deeptune's $43M Series A (~April 2026), then had Mercor acquire Deeptune three months later. He told Fortune the personal investment was "in a lot of ways the main motivation" for backing Deeptune early. Not illegal or confirmed improper — but an insider-positioning pattern worth tracking, especially during a reported $20B fundraise.</p>
+    </div>
+
+    <div class="risk">
+      <h4>Ongoing — Customer concentration</h4>
+      <p>~91% of H1 2026 revenue came from AI foundation-model companies (OpenAI, Anthropic, Google DeepMind named). If labs build internal data-ops teams — several are known to be doing so — Mercor's core market could compress. Gross margin was 33% in Q2 2026 (contractors take 60–70% of top-line revenue), with guidance to ~46%.</p>
+    </div>
+  </div>
+</section>
+
+<section class="alt" id="trends">
+  <div class="wrap">
+    <h2 class="h">Market Trends</h2>
+    <div class="grid cols-3">
+      <div class="card">
+        <div class="tagrow"><span class="badge crit">Critical</span><span class="badge high">High</span></div>
+        <h3>The neutrality shift</h3>
+        <p class="note">Meta's 49% stake in Scale AI (Jun 2025) made Scale commercially untenable for rival labs as a data vendor. Google, OpenAI, and xAI reportedly cut or reduced ties within weeks — the single biggest external driver of growth across this entire competitive set.</p>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">High</span><span class="badge conf">Conflict</span></div>
+        <h3>Market growth &amp; data scarcity</h3>
+        <p class="note">AI training-dataset market: $4.44B in 2026 → $23.18B by 2034 (22.9% CAGR, Fortune Business Insights — verified). Other firms estimate 2–3x higher, reflecting a genuine scope disagreement (raw datasets vs. broader human-labor spend). Quality public text is running thin, pushing labs toward expert-generated data.</p>
+      </div>
+      <div class="card">
+        <div class="tagrow"><span class="badge valh">High</span><span class="badge high">High</span></div>
+        <h3>Security &amp; trust risk</h3>
+        <p class="note">Trust — not just cost or quality — is now the primary competitive currency. Two shocks in twelve months (Scale's ownership conflict, Mercor's breach) show any vendor's moat now rests on demonstrable independence <em>and</em> demonstrable security hygiene.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="funding">
+  <div class="wrap">
+    <h2 class="h">Mercor Funding Timeline</h2>
+    <div class="timeline">
+      <div class="tl-item"><div class="date">2023 · Seed</div><div class="title">$3.6M — led by General Catalyst</div><div class="desc">Company founded as an AI-powered technical recruiting marketplace.</div></div>
+      <div class="tl-item"><div class="date">Sep 2024 · Series A</div><div class="title">$32M — led by Benchmark</div><div class="desc">~$250M valuation.</div></div>
+      <div class="tl-item"><div class="date">Feb 2025 · Series B</div><div class="title">$100M at $2B — led by Felicis</div><div class="desc">Benchmark, General Catalyst, DST Global, Menlo Ventures participating. 8x the Series A valuation.</div></div>
+      <div class="tl-item"><div class="date">Oct 2025 · Series C</div><div class="title">$350M at $10B — led by Felicis</div><div class="desc">Benchmark, General Catalyst, new investor Robinhood Ventures. 5x the Series B valuation.</div></div>
+      <div class="tl-item"><div class="date">Jul 2026 · In talks</div><div class="title">~$500M at $20B (reported term sheet)</div><div class="desc">Early-stage talks per TechCrunch, alongside the Deeptune acquisition announcement and a reported $2B run-rate.</div></div>
+    </div>
+    <table style="margin-top:28px">
+      <thead><tr><th>Investor</th><th>Role</th><th>Rounds</th></tr></thead>
+      <tbody>
+        <tr><td>Felicis</td><td>Repeat lead</td><td>Series B, Series C</td></tr>
+        <tr><td>Benchmark</td><td>Early lead, repeat participant</td><td>Series A (lead), B, C</td></tr>
+        <tr><td>General Catalyst</td><td>Earliest institutional backer</td><td>Seed (lead), B, C</td></tr>
+        <tr><td>Individual angels</td><td>Named across rounds</td><td>Peter Thiel, Jack Dorsey, Adam D'Angelo, Larry Summers</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="alt" id="people">
+  <div class="wrap">
+    <h2 class="h">Key People</h2>
+    <div class="people-grid">
+      <div class="person"><div class="name">Brendan Foody</div><div class="role">Mercor · CEO &amp; co-founder</div><div class="fact">Thiel Fellow; angel-invested in Deeptune before Mercor acquired it.</div></div>
+      <div class="person"><div class="name">Adarsh Hiremath</div><div class="role">Mercor · CTO &amp; co-founder</div><div class="fact">Thiel Fellow; age 22 at $10B valuation.</div></div>
+      <div class="person"><div class="name">Surya Midha</div><div class="role">Mercor · Chairman &amp; co-founder</div><div class="fact">Moved from COO to Chairman, Oct 2025.</div></div>
+      <div class="person"><div class="name">Sundeep Jain</div><div class="role">Mercor · President</div><div class="fact">Joined May 2025; ex-Uber CPO.</div></div>
+      <div class="person"><div class="name">Jason Droege</div><div class="role">Scale AI · CEO</div><div class="fact">Ex-Benchmark venture partner, ex-Uber VP; took over post-Wang.</div></div>
+      <div class="person"><div class="name">Edwin Chen</div><div class="role">Surge AI · Founder &amp; CEO</div><div class="fact">Bootstrapped to $1.2–1.4B revenue, zero VC through mid-2025.</div></div>
+      <div class="person"><div class="name">Jonathan Siddharth</div><div class="role">Turing · CEO &amp; co-founder</div><div class="fact">Pivoted a hiring marketplace into a coding-data supplier for OpenAI et al.</div></div>
+      <div class="person"><div class="name">Garrett Lord</div><div class="role">Handshake · CEO &amp; co-founder</div><div class="fact">"Re-founded" the 2014 company around AI data starting Jan 2025.</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="methodology">
+  <div class="wrap">
+    <h2 class="h">Methodology &amp; Sourcing</h2>
+    <p class="sub">This dossier is a curated summary of a deeper research vault. Every claim in the vault is individually sourced and confidence-tagged.</p>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Confidence legend</h3>
+        <p class="note"><span class="badge high">High</span> — verified via direct fetch of a primary or clearly reliable source.<br><br>
+        <span class="badge med">Med</span> — sourced from search results / aggregators, not independently fetched, or a single non-primary source.<br><br>
+        <span class="badge conf">Conflict</span> — credible sources disagree; both/all figures retained rather than silently picking one.</p>
+      </div>
+      <div class="card">
+        <h3>Gate status</h3>
+        <p class="note">Breadth gate (≥3 researched entities per category) and depth gate (every CRITICAL/HIGH entity researched or explicitly skipped) are both <strong>met</strong> as of Pass 2 (2026-08-14). Full entity-by-entity status, every citation, and follow-up items for a future pass live in the source vault.</p>
+      </div>
+    </div>
+    <p class="src">Full research vault (all sources, full text, per-claim citations): <a href="https://github.com/savankong/lifeos-mercor/tree/claude/lifeos-mercor-research-vault-tvhst4/MEMORY/RESEARCH/2026-08/2026-08-14_mercor-competitive-intelligence">github.com/savankong/lifeos-mercor</a></p>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="legend">
+      <span><span class="dot high"></span>High confidence</span>
+      <span><span class="dot med"></span>Medium confidence</span>
+      <span><span class="dot conf"></span>Conflicting sources</span>
+    </div>
+    <p style="margin-top:16px">This is a point-in-time research snapshot (2026-08-14), not a live feed — figures reported by companies/press, not independently audited. Prepared as internal strategic/competitive intelligence. Not investment advice.</p>
+  </div>
+</footer>
+
+</body>
+</html>
