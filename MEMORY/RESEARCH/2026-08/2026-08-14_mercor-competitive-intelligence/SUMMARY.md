@@ -1,4 +1,4 @@
-\# Summary — Mercor Competitive Intelligence (Pass 2)
+\# Summary — Mercor Competitive Intelligence (Pass 3)
 
 *2026-08-14. Read `INDEX.md` first for full navigation; this file is the short version.*
 
@@ -15,3 +15,5 @@
 **Confirmed scope:** the competitor set, the "neutrality/durability" angle, and the general strategic-intelligence audience were all confirmed by the requester on 2026-08-14. Federal/government-contracting spend analysis was considered and explicitly not pursued — it wasn't the intended angle.
 
 **What's still open, lower priority, not gate-blocking:** Invisible Technologies and Snorkel AI remain lightly researched; Handshake AI's most dramatic revenue claim (~$1B by April 2026) couldn't be verified against a primary source after two fetch attempts; a handful of individual investors/angels (Robinhood Ventures, DST Global, Menlo Ventures, Peter Thiel et al.) remain PENDING.
+
+**Pass 3 — Mercor business-model deep dive.** Mercor is not one product but four: the core RLHF/SFT/rubrics/RL-environments/APEX suite; a Forward-Deployed-Engineer-style **Enterprise AI** consulting arm (high-touch B2B, no public pricing); and a **Data monetization** product that pays enterprises (up to $100K referral bonuses) to license internal Slack/email/CRM/code data to AI labs. The core marketplace runs on a **~35% take rate** with contractors keeping 60–70% of client billing — applying that rate to the ~$2B mid-2026 gross run-rate implies **net revenue closer to $600–700M/yr**, well below the headline gross figure most press coverage cites. GTM was historically sales-team-free (founder-led, word-of-mouth) for the marketplace, but Enterprise AI and Data both run conventional high-touch/referral B2B motions — a real divergence in how the company sells depending on which product line. A new, dated, verified risk item: a November 2025 incident where a cancelled project ("Musen") was replaced with a lower-paying one ("Nova," $16/hr vs. $21/hr) for the same contractor pool — the first concrete instance of the previously-vague "declining pay" press characterization.

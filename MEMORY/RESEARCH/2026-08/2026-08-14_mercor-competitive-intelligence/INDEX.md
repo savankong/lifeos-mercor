@@ -2,8 +2,9 @@
 
 **Focus entity:** Mercor (mercor.com) — AI expert-data / human-feedback marketplace
 **Vault opened:** 2026-08-14
-**Status:** Pass 2 complete — breadth and depth gates both MET (see Gate Status below)
+**Status:** Pass 3 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor itself (see below)
 **Requester:** savan@lifebetweentitles.com
+**Companion site:** [Competitive dossier (deployed)](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) — condensed public-facing summary of this vault
 
 ## Read this first
 
@@ -33,8 +34,10 @@
 
 ## Products
 
-- [Mercor AI Vetting/Assessment Engine](Products/Mercor-AI-Vetting-Assessment.md)
-- [Mercor Post-Training Data Suite](Products/Mercor-Post-Training-Suite.md) (RLHF/SFT/Rubrics/RL Environments/APEX)
+- [Mercor AI Vetting/Assessment Engine ("Mercor Voice")](Products/Mercor-AI-Vetting-Assessment.md)
+- [Mercor Post-Training Data Suite](Products/Mercor-Post-Training-Suite.md) (RLHF/SFT/Rubrics/RL Environments/APEX family)
+- [Mercor Enterprise AI](Products/Mercor-Enterprise-AI.md) — agent-deployment consulting, new in Pass 3
+- [Mercor Data (Enterprise Workflow Data)](Products/Mercor-Data-Monetization.md) — data monetization, new in Pass 3
 - [Deeptune Agent-Training Environments](Products/Deeptune-Agent-Training-Environments.md)
 
 ## Technologies
@@ -48,6 +51,7 @@
 - [Post-Scale/Meta Neutrality Shift](Trends/Post-Scale-Meta-Neutrality-Shift.md) — CRITICAL, the single biggest structural driver in this market
 - [AI Training-Data Market Growth & Human-Data Scarcity](Trends/AI-Training-Data-Market-Human-Scarcity.md)
 - [AI-Data-Vendor Security & Trust Risk](Trends/AI-Data-Vendor-Security-Trust-Risk.md)
+- [Contractor Labor-Relations Volatility](Trends/Contractor-Labor-Relations-Volatility.md) — new in Pass 3
 
 ## Investors
 
@@ -76,3 +80,15 @@ The requester confirmed the pass-1 defaults are correct: the competitor set (Sca
 4. **Market-size estimates** — reconciled against one primary source (Fortune Business Insights, fetched directly: $4.44B in 2026 → $23.18B by 2034, 22.9% CAGR). The wide spread across research firms turns out to be a genuine scope/definition disagreement (raw datasets vs. broader human-labor/RLHF services), not just noisy reporting — kept as CONFLICT rather than resolved to one number.
 
 Depth gate is now met. Remaining thin spots (Invisible Technologies, Snorkel AI, several individual investors/angels, Sundeep Jain/Garrett Lord person-level depth) are logged in `ENTITIES.md` for a future iteration if the requester wants to go further, but are not blocking.
+
+## Iteration 3 — Mercor deep dive (business model, GTM, revenue, products, metrics)
+
+Requested directly: a very deep dive into Mercor's business model, customer acquisition, revenue, product offerings, and internally-tracked metrics. Findings, all folded into `Companies/Mercor.md` (new sections: Business Model & Unit Economics, Customer Acquisition, expanded Revenue, Full Product Portfolio, Metrics Mercor Tracks/Publicizes):
+
+1. **Business model is a ~35%-take-rate labor marketplace, not SaaS** — contractors keep 60–70% of what clients pay; applying the take rate to the ~$2B gross run-rate implies **net revenue closer to $600–700M/yr**, materially below the headline gross figures most coverage leads with.
+2. **Mercor's product portfolio is four lines, not one:** the core RLHF/SFT/Rubrics/RL-Environments/APEX suite; the APEX benchmark family (now including APEX-Agents, APEX-Accounting, APEX-SWE); a newly-discovered **Mercor Enterprise AI** consulting arm (Forward-Deployed-Engineer-style agent deployment, high-touch B2B sales — a different GTM entirely from the marketplace); and a newly-discovered **Mercor Data** product that pays enterprises (referral bonuses up to $100K) to license their internal Slack/email/CRM/code data to AI labs.
+3. **GTM has diversified alongside the product line** — the core marketplace ran with literally no sales team (founder-led, word-of-mouth, free candidate-acquisition tools), while Enterprise AI and Data run conventional high-touch/referral B2B motions.
+4. **Mercor's own public KPIs** (live homepage counters, values not statically readable): *Average contracted rate ($/hr)*, *Roles created (k)*, *Daily payouts ($)* — the company markets marketplace liquidity, not SaaS metrics like NRR or logo count.
+5. **New verified risk item:** a Nov 2025 contractor-pay incident (project "Musen" cancelled, replacement project "Nova" offered at $16/hr vs. $21/hr) — the first concrete, dated instance of the previously-vague "declining pay" complaints; folded into `Companies/Mercor.md` and generalized into a new trend file, `Trends/Contractor-Labor-Relations-Volatility.md`.
+
+Companion deliverable: the [deployed dossier site](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) still reflects the Pass 2 snapshot as of this vault update — a Pass 3 refresh of the site to include the business-model deep dive is a pending follow-up, not yet done.

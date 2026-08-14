@@ -86,7 +86,7 @@
 
 <header class="hero">
   <div class="wrap">
-    <div class="eyebrow">Competitive Intelligence Dossier · Updated 2026-08-14</div>
+    <div class="eyebrow">Competitive Intelligence Dossier · Updated 2026-08-14 · Pass 3: business-model deep dive</div>
     <h1>Mercor</h1>
     <p class="lede">Positioning and durability in the AI expert-data / human-feedback market, amid the post-Scale/Meta "neutrality" land-grab — including the March 2026 security breach and the Deeptune self-dealing flag.</p>
     <div class="statbar">
@@ -102,6 +102,7 @@
   <div class="wrap">
     <a href="#summary">Summary</a>
     <a href="#companies">Companies</a>
+    <a href="#business">Business Model</a>
     <a href="#risks">Risk Flags</a>
     <a href="#trends">Trends</a>
     <a href="#funding">Funding</a>
@@ -212,6 +213,55 @@
   </div>
 </section>
 
+<section class="alt" id="business">
+  <div class="wrap">
+    <h2 class="h">Mercor — Business Model Deep Dive</h2>
+    <p class="sub">Unit economics, go-to-market, the full product portfolio, and what Mercor itself chooses to publicize as its headline metrics.</p>
+
+    <div class="grid cols-2">
+      <div class="card">
+        <h3>Unit economics: a ~35% take-rate labor marketplace</h3>
+        <div class="kv"><span class="k">Take rate</span><span class="v">~35% of gross payment volume</span></div>
+        <div class="kv"><span class="k">Contractor share</span><span class="v">60–70% of client billing</span></div>
+        <div class="kv"><span class="k">Rate card range</span><span class="v">$65–$150+/hr by domain</span></div>
+        <div class="kv"><span class="k">Implied net revenue</span><span class="v">~$600–700M/yr*</span></div>
+        <p class="note">*This vault's own estimate: applying the verified ~35% take rate to the ~$2B gross run-rate. Most press headlines cite the <em>gross</em> figure — a materially different (larger) number than what Mercor actually keeps. This margin profile is in line with BPO (business-process-outsourcing) medians, not typical SaaS gross margins — a real framing question for how the company should be valued.</p>
+      </div>
+      <div class="card">
+        <h3>Go-to-market: different motion per product line</h3>
+        <p class="note"><strong>Core marketplace:</strong> historically no dedicated sales team — "there isn't a single person who works on sales at Mercor outside of the founders." Growth came from word-of-mouth and placement-quality reputation; candidate acquisition via free interview/resume tools, referrals, university outreach, and GitHub scraping.</p>
+        <p class="note" style="margin-top:10px"><strong>Enterprise AI (new):</strong> conventional high-touch B2B — no public pricing, "book a demo," targeting 1,000+-employee organizations and PE due-diligence teams.</p>
+        <p class="note" style="margin-top:10px"><strong>Data monetization (new):</strong> referral-driven — up to <strong>$100K referral bonuses</strong> paid to enterprises that bring in data-licensing deals.</p>
+      </div>
+    </div>
+
+    <h3 style="margin:28px 0 14px;font-size:19px">Four product lines, not one</h3>
+    <div class="grid cols-2">
+      <div class="card">
+        <h3 style="font-size:16px">Post-Training Data Suite</h3>
+        <p class="note">RLHF, SFT, rubrics, RL environments, plus the APEX benchmark family (now including APEX-Agents, APEX-Accounting, APEX-SWE). The original and still-dominant revenue line.</p>
+      </div>
+      <div class="card">
+        <h3 style="font-size:16px">Mercor Enterprise AI</h3>
+        <p class="note">Forward-Deployed-Engineer-style consulting: Discover → Deploy → Improve → Monetize. Published case-study claims: "50%+ reduction in time to incident mitigation," "$7–9M upside savings identified," "$20M annual run-rate impact by 2031," "~12,000 support requests/week handled."</p>
+      </div>
+      <div class="card">
+        <h3 style="font-size:16px">Mercor Data</h3>
+        <p class="note">Pays enterprises to anonymize and license internal Slack/email/CRM/code/finance data to AI labs. Claims SOC 2 Type II, 60+ sensitive-identifier detection, 50+ integrations — claims worth extra scrutiny given Mercor's own March 2026 breach.</p>
+      </div>
+      <div class="card">
+        <h3 style="font-size:16px">Mercor Voice / Vetting Engine</h3>
+        <p class="note">The AI-interview and candidate-screening infrastructure underneath every other product line — 468,000+ applicants evaluated, 30,000+ active experts. Mercor's core defensibility claim, not independently audited.</p>
+      </div>
+    </div>
+
+    <h3 style="margin:28px 0 14px;font-size:19px">What Mercor tracks publicly</h3>
+    <div class="card">
+      <p class="note">As of August 2026, mercor.com's own homepage displays three live counters as its headline public KPIs: <strong>Average contracted rate ($/hr)</strong>, <strong>Roles created (k)</strong>, and <strong>Daily payouts ($)</strong>. That choice is itself a signal — Mercor markets marketplace <em>liquidity and payout velocity</em> ("real money moving to real experts, right now"), not SaaS-style metrics like net revenue retention or logo count. Analysts and press separately reconstruct: take rate (~35%), gross margin (33% in Q2 2026, guided to ~46%), revenue per US employee (~$1.7M at the $50M-ARR stage), and customer concentration (~91% of H1 2026 revenue from foundation-model labs).</p>
+    </div>
+  </div>
+</section>
+
 <section id="risks">
   <div class="wrap">
     <h2 class="h">Risk Flags</h2>
@@ -225,6 +275,11 @@
     <div class="risk">
       <h4>July 2026 — Deeptune acquisition, governance flag</h4>
       <p>CEO Brendan Foody personally angel-invested in Deeptune's $43M Series A (~April 2026), then had Mercor acquire Deeptune three months later. He told Fortune the personal investment was "in a lot of ways the main motivation" for backing Deeptune early. Not illegal or confirmed improper — but an insider-positioning pattern worth tracking, especially during a reported $20B fundraise.</p>
+    </div>
+
+    <div class="risk">
+      <h4>November 2025 — Contractor pay-cut incident ("Musen" → "Nova")</h4>
+      <p>A project reviewing Meta Reels content ("Musen") was abruptly cancelled — contractors locked out of Slack — then replaced hours later with a new project ("Nova") offered at <strong>$16/hr, $5 below Musen's $21/hr</strong>, with some contractors having earned up to $60/hr on prior Mercor work. Mercor disputes the "wage cut" characterization, framing it as normal project-based reallocation. The first concrete, dated instance of the broader "declining pay" pattern referenced in press coverage — and a reminder that contractor-rate volatility is structural to this entire business model, not unique to Mercor.</p>
     </div>
 
     <div class="risk">
@@ -308,7 +363,7 @@
       </div>
       <div class="card">
         <h3>Gate status</h3>
-        <p class="note">Breadth gate (≥3 researched entities per category) and depth gate (every CRITICAL/HIGH entity researched or explicitly skipped) are both <strong>met</strong> as of Pass 2 (2026-08-14). Full entity-by-entity status, every citation, and follow-up items for a future pass live in the source vault.</p>
+        <p class="note">Breadth gate (≥3 researched entities per category) and depth gate (every CRITICAL/HIGH entity researched or explicitly skipped) are both <strong>met</strong> as of Pass 3 (2026-08-14), which added the business-model/GTM/revenue/product/metrics deep dive above. Full entity-by-entity status, every citation, and follow-up items for a future pass live in the source vault.</p>
       </div>
     </div>
     <p class="src">Full research vault (all sources, full text, per-claim citations): <a href="https://github.com/savankong/lifeos-mercor/tree/claude/lifeos-mercor-research-vault-tvhst4/MEMORY/RESEARCH/2026-08/2026-08-14_mercor-competitive-intelligence">github.com/savankong/lifeos-mercor</a></p>
