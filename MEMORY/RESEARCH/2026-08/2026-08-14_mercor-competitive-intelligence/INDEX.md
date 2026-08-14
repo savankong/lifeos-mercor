@@ -2,7 +2,7 @@
 
 **Focus entity:** Mercor (mercor.com) — AI expert-data / human-feedback marketplace
 **Vault opened:** 2026-08-14
-**Status:** Pass 1 complete (breadth gate met; depth gate partially met — see Gate Status below)
+**Status:** Pass 2 complete — breadth and depth gates both MET (see Gate Status below)
 **Requester:** savan@lifebetweentitles.com
 
 ## Read this first
@@ -14,12 +14,13 @@
 ## Companies
 
 - [Mercor](Companies/Mercor.md) — focus entity, CRITICAL
-- [Scale AI](Companies/Scale-AI.md) — HIGH (light profile, iteration-2 target)
+- [Scale AI](Companies/Scale-AI.md) — HIGH
 - [Surge AI](Companies/Surge-AI.md) — HIGH
 - [Micro1](Companies/Micro1.md) — HIGH
 - [Handshake (Handshake AI)](Companies/Handshake-AI.md) — HIGH
+- [Turing](Companies/Turing.md) — HIGH
 - [Invisible Technologies](Companies/Invisible-Technologies.md) — MEDIUM (light profile)
-- Turing, Snorkel AI — PENDING, see ENTITIES.md
+- Snorkel AI — PENDING, see ENTITIES.md
 
 ## People
 
@@ -54,26 +55,24 @@
 - [Benchmark](Investors/Benchmark.md) — Series A lead, participated B & C
 - [General Catalyst](Investors/General-Catalyst.md) — seed lead, participated through Series C
 
-## Gate status (Pass 1)
+## Gate status (Pass 2)
 
 | Gate | Status |
 |---|---|
 | Breadth (≥3 researched entities per category) | **MET** — all 6 categories |
-| Depth (every CRITICAL/HIGH entity RESEARCHED or SKIPped with reason) | **NOT YET MET** — Turing (HIGH) is PENDING with no profile; Scale AI profile is light |
+| Depth (every CRITICAL/HIGH entity RESEARCHED or SKIPped with reason) | **MET** — Turing profiled and Scale AI upgraded to a full profile in iteration 2 |
 
 Full detail: [ENTITIES.md](ENTITIES.md).
 
-## Open questions for the requester
+## Confirmed direction (as of 2026-08-14)
 
-The original research brief left several scoping fields as unfilled placeholders. Pass 1 proceeded on reasonable defaults, but these should be confirmed before further iteration invests more effort in a possibly-wrong direction:
+The requester confirmed the pass-1 defaults are correct: the competitor set (Scale AI, Surge AI, Micro1, Handshake AI, Turing, +Invisible Technologies/Snorkel AI lighter), the angle (*Mercor's competitive durability amid the post-Scale/Meta "neutrality" land-grab, including the March 2026 security breach and the Deeptune self-dealing flag*), and the general strategic-intelligence audience. The federal-contracting angle was **not** requested and remains untouched by design, not oversight.
 
-1. **Core competitors to profile** — defaulted to identifying them myself (Scale AI, Surge AI, Micro1, Handshake AI, Invisible Technologies, +Turing/Snorkel pending). Confirm this list is right, or narrow/expand it.
-2. **Specific angle** — no angle was given. This pass surfaced a strong natural one: *Mercor's competitive durability amid the post-Scale/Meta "neutrality" land-grab, including the March 2026 security breach and the Deeptune self-dealing flag.* If a different angle was intended (e.g., federal contracting — not touched at all in this pass — or M&A/roll-up activity, or a straight investment-diligence lens), say so and iteration 2 will redirect.
-3. **Audience/purpose** — not specified. Assumed general strategic/competitive intelligence. If this is meant to inform a specific decision (investment, partnership, hiring, competing product build), naming it will sharpen what gets prioritized next.
+## Iteration 2 — what changed
 
-## Next iteration (pass 2) plan, pending the above
+1. **Turing** — new full profile: CEO Jonathan Siddharth, ~$300M ARR (blended talent + AI-data revenue — flagged as not directly comparable to Mercor's AI-data-only figures), $2.2B valuation, profitable, coding-focused niche.
+2. **Scale AI** — upgraded from a light, competitor-context-only entry to a full profile: new CEO Jason Droege (ex-Benchmark, ex-Uber), 2026 revenue guided to ~$1B (down from ~$2B in 2025) — the clearest quantified evidence in this vault of how much value the neutrality shock transferred away from Scale.
+3. **Handshake AI revenue claims** — re-verified. The $50M-in-4-months / $100M-in-12-months figures trace to a podcast episode *description* (Lenny's Newsletter), not a confirmed direct quote from CEO Garrett Lord in accessible content; the ~$1B-by-April-2026 figure could not be reached via two independent fetch attempts (403, then 503). Confidence held at MED, with the caveat now more precise.
+4. **Market-size estimates** — reconciled against one primary source (Fortune Business Insights, fetched directly: $4.44B in 2026 → $23.18B by 2034, 22.9% CAGR). The wide spread across research firms turns out to be a genuine scope/definition disagreement (raw datasets vs. broader human-labor/RLHF services), not just noisy reporting — kept as CONFLICT rather than resolved to one number.
 
-1. Direct deep-dive on Turing; upgrade Scale AI to a full profile.
-2. Independently verify Handshake AI's AI-unit revenue claims (currently MED, aggregator-sourced).
-3. Reconcile the AI-training-data market-size estimates against at least one primary report.
-4. If the federal-contracting angle is confirmed: query USAspending.gov / SAM.gov multiple ways (direct entity name, keyword, subcontractor/affiliate) for Mercor and each competitor, per the task's stated method, and eyeball results for false positives before trusting them.
+Depth gate is now met. Remaining thin spots (Invisible Technologies, Snorkel AI, several individual investors/angels, Sundeep Jain/Garrett Lord person-level depth) are logged in `ENTITIES.md` for a future iteration if the requester wants to go further, but are not blocking.

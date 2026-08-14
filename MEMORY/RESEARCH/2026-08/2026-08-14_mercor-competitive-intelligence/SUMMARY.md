@@ -1,4 +1,4 @@
-\# Summary — Mercor Competitive Intelligence (Pass 1)
+\# Summary — Mercor Competitive Intelligence (Pass 2)
 
 *2026-08-14. Read `INDEX.md` first for full navigation; this file is the short version.*
 
@@ -8,6 +8,10 @@
 
 **Two 2026 events are the most important due-diligence flags found in this pass:** a March 2026 supply-chain data breach that cost Mercor its Meta contract and exposed up to 4TB of data, and a governance/self-dealing flag around the Deeptune acquisition (CEO Foody personally invested in Deeptune before having Mercor acquire it three months later). Neither appears to have stopped Mercor's fundraising momentum, but both are directly relevant to any "is this durable" assessment.
 
-**What this pass covered:** Mercor deep profile; 5 competitor profiles (Scale AI, Surge AI, Micro1, Handshake AI, Invisible Technologies); 6 people; 3 investors; 3 products; 3 technologies; 3 trends. Breadth gate (≥3 researched entities per category) is met across all six categories — see `ENTITIES.md` for the full gate/status table.
+**What this vault covers (2 passes):** Mercor deep profile; 6 competitor profiles (Scale AI, Surge AI, Micro1, Handshake AI, Turing, Invisible Technologies); 6 people; 3 investors; 3 products; 3 technologies; 3 trends. Both the breadth gate (≥3 researched entities per category) and the depth gate (every CRITICAL/HIGH entity researched or explicitly skipped) are met — see `ENTITIES.md` for the full status table.
 
-**What's still open, in priority order:** a direct Turing deep-dive, a fuller Scale AI profile, independent (non-aggregator) verification of Handshake AI's revenue claims, reconciling wildly divergent third-party market-size estimates, and — depending on which angle the requester actually wants — a federal/government-contracting spend analysis, which has not been touched at all in this pass since the task brief left "specific angle" as an unfilled placeholder.
+**Pass 2 added two hard numbers that sharpen the story:** Scale AI's own guidance puts 2026 revenue at ~$1B, down from ~$2B in 2025 — the clearest quantified evidence of how much the Meta deal cost Scale and handed to Mercor and peers. And Turing, the most capital-efficient of the venture-backed competitors ($300M blended ARR on only $225M raised), turns out not to be a clean apples-to-apples comparison to Mercor since its ARR blends legacy talent-hiring revenue with AI-data revenue.
+
+**Confirmed scope:** the competitor set, the "neutrality/durability" angle, and the general strategic-intelligence audience were all confirmed by the requester on 2026-08-14. Federal/government-contracting spend analysis was considered and explicitly not pursued — it wasn't the intended angle.
+
+**What's still open, lower priority, not gate-blocking:** Invisible Technologies and Snorkel AI remain lightly researched; Handshake AI's most dramatic revenue claim (~$1B by April 2026) couldn't be verified against a primary source after two fetch attempts; a handful of individual investors/angels (Robinhood Ventures, DST Global, Menlo Ventures, Peter Thiel et al.) remain PENDING.

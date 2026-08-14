@@ -1,6 +1,6 @@
 \# Landscape — The AI Expert-Data / Human-Feedback Market
 
-*Synthesized narrative layer. Pass 1 — 2026-08-14. See ENTITIES.md for sourcing status per entity and individual Companies/People/Products/Technologies/Trends files for citations.*
+*Synthesized narrative layer. Pass 2 — 2026-08-14. See ENTITIES.md for sourcing status per entity and individual Companies/People/Products/Technologies/Trends files for citations.*
 
 ## The shape of the market
 
@@ -8,11 +8,13 @@ Through 2023–2024 this market was dominated by a small number of large, VC-bac
 
 Seven companies absorbed that reallocated spend, each with a somewhat different angle:
 
-- **Surge AI** — bootstrapped, ~1M annotators, broad RLHF/red-teaming, reportedly "took the frontier-lab crown." The only major player with no VC/strategic-investor neutrality question.
+- **Surge AI** — bootstrapped, ~1M annotators, broad RLHF/red-teaming, reportedly "took the frontier-lab crown." The only major player with no VC/strategic-investor neutrality question — though it was reportedly in fundraising talks itself as of mid-2025, which would end that distinction.
 - **Mercor** — credentialed-expert niche (doctors, lawyers, PhDs) for reasoning/professional-domain data; fastest-growing by reported ARR; now the vault's focus entity.
 - **Micro1** — near-identical model to Mercor at roughly 1/7th the scale — the best available "is this Mercor-specific or category-wide" comparison point.
-- **Handshake AI** — a 2014-founded university-recruiting company that pivoted an existing large network into AI data almost overnight; potentially the fastest *relative* mover if its revenue claims hold up.
-- **Turing, Invisible Technologies, Snorkel AI** — named repeatedly as part of the post-Scale reallocation but not yet deep-dived in this pass (PENDING — see ENTITIES.md).
+- **Handshake AI** — a 2014-founded university-recruiting company that pivoted an existing large network into AI data almost overnight; potentially the fastest *relative* mover, though its most eye-catching revenue figures remain unverified against a primary, non-paywalled source (see `Companies/Handshake-AI.md`).
+- **Turing** — coding-data specialist, profitable, most capital-efficient of the venture-backed players (~$300M blended ARR on $225M raised at a $2.2B valuation) — but that ARR figure blends its original talent-hiring business with AI-data revenue, making it not directly comparable to Mercor's AI-data-only numbers.
+- **Scale AI** — the incumbent everyone above took share from. New CEO Jason Droege has guided 2026 revenue to ~$1B, down from ~$2B in 2025 — the clearest single quantified data point on how much value the Meta deal transferred to competitors. Not exiting the market; pivoting toward enterprise-deployment clients (Mayo Clinic, Pentagon cited) as a second act.
+- **Invisible Technologies, Snorkel AI** — named repeatedly as part of the post-Scale reallocation but still only lightly profiled or PENDING — see ENTITIES.md.
 
 ## Where Mercor sits
 
@@ -23,9 +25,11 @@ Two 2026 events complicate the growth story and are worth weighing heavily in an
 1. **The March 2026 LiteLLM supply-chain breach**, which cost Mercor its Meta contract (paused indefinitely) and exposed up to 4TB of internal/customer data. This is a direct demonstration that the "neutrality" advantage competitors gained from Scale's fall can be lost just as fast through a security failure — trust in this market is fragile in both directions. (See `Trends/AI-Data-Vendor-Security-Trust-Risk.md`.)
 2. **The Deeptune acquisition governance flag** — CEO Foody personally angel-invested in Deeptune before having Mercor acquire it three months later, an insider-positioning pattern he characterized to Fortune as intentional ("the main motivation"). Not illegal or even necessarily improper, but a governance signal worth tracking, especially as Mercor pursues a reported $20B valuation raise. (See `Companies/Mercor.md`.)
 
-## Where this needs more work (iteration 2 priorities)
+## Where this needs more work (post pass-2)
 
-1. A direct, dedicated deep-dive on **Turing** and a fuller one on **Scale AI** (current profile leans on competitor-context mentions, not a primary company research pass).
-2. Independent verification of the **Handshake AI revenue figures** (currently MED confidence, sourced from aggregators, not primary reporting).
-3. A market-sizing reconciliation — four different research firms gave four different 2026 AI-training-data market-size figures in this pass (see `Trends/AI-Training-Data-Market-Human-Scarcity.md`); none were independently fetched.
-4. Government-contracting / federal-spend angle **not yet explored at all** — if that's the intended angle for this research (the original brief left this as an open placeholder), it needs its own dedicated pass against a structured spending data source, queried multiple ways per the task's stated method (direct name, keyword, subcontractor/affiliate) to avoid under-counting or false positives.
+Both breadth and depth gates are now met (see `ENTITIES.md`). Remaining open items, none gate-blocking:
+
+1. **Invisible Technologies and Snorkel AI** remain thin/PENDING — lower priority since both are MEDIUM-value in this competitive set, but worth closing if the requester wants full category coverage.
+2. **Handshake AI's most dramatic revenue claims** (~$1B annualized by April 2026) remain unverified against a primary, non-paywalled source after two failed fetch attempts (403, then 503) — would need a different source entirely (direct company statement, SEC-adjacent filing) to upgrade past MED confidence.
+3. **Market-sizing** is now anchored to one verified primary figure (Fortune Business Insights) but the CONFLICT with other firms' estimates reflects a genuine scope disagreement in the industry (raw datasets vs. broader human-labor spend), not a research gap — flagging this as resolved-as-CONFLICT rather than pending further search.
+4. **Government-contracting / federal-spend angle** — confirmed **out of scope** for this research (requester approved the neutrality/durability angle as the intended direction). Not pursued.

@@ -2,23 +2,23 @@
 
 Status legend: **RESEARCHED** (profile file exists, sourced), **RESEARCHED (light)** (profile exists but thin — candidate for deeper pass), **PENDING** (identified, not yet profiled), **SKIP** (deliberately out of scope, reason given).
 
-Last updated: 2026-08-14 (Pass 1)
+Last updated: 2026-08-14 (Pass 2)
 
 ## Companies
 
 | Entity | Status | Value | File |
 |---|---|---|---|
 | Mercor | RESEARCHED | CRITICAL | [Companies/Mercor.md](Companies/Mercor.md) |
-| Scale AI | RESEARCHED (light) | HIGH | [Companies/Scale-AI.md](Companies/Scale-AI.md) |
+| Scale AI | RESEARCHED | HIGH | [Companies/Scale-AI.md](Companies/Scale-AI.md) |
 | Surge AI | RESEARCHED | HIGH | [Companies/Surge-AI.md](Companies/Surge-AI.md) |
 | Micro1 | RESEARCHED | HIGH | [Companies/Micro1.md](Companies/Micro1.md) |
 | Handshake (Handshake AI) | RESEARCHED | HIGH | [Companies/Handshake-AI.md](Companies/Handshake-AI.md) |
+| Turing | RESEARCHED | HIGH | [Companies/Turing.md](Companies/Turing.md) |
 | Invisible Technologies | RESEARCHED (light) | MEDIUM | [Companies/Invisible-Technologies.md](Companies/Invisible-Technologies.md) |
 | Deeptune | RESEARCHED (light, as Mercor product line) | HIGH | folded into [Companies/Mercor.md](Companies/Mercor.md) + [Products/Deeptune-Agent-Training-Environments.md](Products/Deeptune-Agent-Training-Environments.md) |
-| Turing | PENDING | HIGH | — one data point only (~$300M ARR per Contrary Research, secondary source); needs a dedicated research pass |
-| Snorkel AI | PENDING | MEDIUM | named as a competitor in round-ups but not yet independently researched |
+| Snorkel AI | PENDING | MEDIUM | named as a competitor in round-ups but not yet independently researched — below CRITICAL/HIGH threshold, not blocking the depth gate |
 
-**Breadth gate for Companies: MET** (6 RESEARCHED ≥ 3 minimum). **Depth gate: partially met** — Turing is a named HIGH-value competitor still PENDING; not yet SKIPped, targeted for iteration 2.
+**Breadth gate for Companies: MET** (7 RESEARCHED ≥ 3 minimum). **Depth gate: MET** — every CRITICAL/HIGH-value company (Mercor, Scale AI, Surge AI, Micro1, Handshake AI, Turing) now has a sourced profile. Only Snorkel AI (MEDIUM) and Invisible Technologies (light MEDIUM) remain thin, neither of which is required for the depth gate.
 
 ## People
 
@@ -30,9 +30,10 @@ Last updated: 2026-08-14 (Pass 1)
 | Sundeep Jain (Mercor President) | RESEARCHED (light) | MEDIUM | [People/Sundeep-Jain.md](People/Sundeep-Jain.md) |
 | Edwin Chen (Surge AI CEO) | RESEARCHED | HIGH | [People/Edwin-Chen.md](People/Edwin-Chen.md) |
 | Garrett Lord (Handshake CEO) | RESEARCHED (light) | MEDIUM | [People/Garrett-Lord.md](People/Garrett-Lord.md) |
-| Alexandr Wang (ex-Scale AI CEO, now Meta) | PENDING | MEDIUM | mentioned in [Companies/Scale-AI.md](Companies/Scale-AI.md); no dedicated profile yet |
-| Scale AI current leadership (post-Wang) | PENDING | MEDIUM | not identified in this pass |
-| Micro1, Invisible Technologies founders/CEOs | PENDING | MEDIUM | not identified in this pass |
+| Alexandr Wang (ex-Scale AI CEO, now Meta) | RESEARCHED (light, within company file) | MEDIUM | covered in [Companies/Scale-AI.md](Companies/Scale-AI.md); no dedicated person profile |
+| Jason Droege (Scale AI CEO, post-Wang) | RESEARCHED (light, within company file) | MEDIUM | identified iteration 2 — ex-Benchmark venture partner, ex-Uber VP; covered in [Companies/Scale-AI.md](Companies/Scale-AI.md) |
+| Jonathan Siddharth (Turing CEO) | RESEARCHED (light, within company file) | MEDIUM | identified iteration 2; covered in [Companies/Turing.md](Companies/Turing.md), no dedicated person profile |
+| Micro1, Invisible Technologies founders/CEOs | PENDING | MEDIUM | not identified as of iteration 2 |
 
 **Breadth gate for People: MET** (6 RESEARCHED ≥ 3 minimum).
 
@@ -86,7 +87,8 @@ Last updated: 2026-08-14 (Pass 1)
 
 None yet — no entity has been deliberately excluded from scope in this pass. If, in later iterations, entities are judged out of scope (e.g., pure-BPO data-labeling vendors with no frontier-lab exposure, or defunct/acquired shells), they will be logged here with a reason rather than silently dropped.
 
-## Gate status summary (Pass 1)
+## Gate status summary (Pass 2)
 
 - **Breadth gate: MET** for all six categories (≥3 RESEARCHED each).
-- **Depth gate: NOT YET MET** — Turing (HIGH-value, named competitor) is still PENDING with no dedicated profile. Scale AI's own profile is "light" (relies on competitor-context mentions rather than a direct company deep-dive). These are the top two items for iteration 2.
+- **Depth gate: MET** — every entity tagged CRITICAL or HIGH value across all six categories is now RESEARCHED (Turing profiled and Scale AI upgraded to a full profile in iteration 2; the two remaining PENDING items, Snorkel AI and the "self-dealing pattern" trend, are both MEDIUM-value and not gate-blocking).
+- **Remaining known-thin items** (tracked, not gate-blocking): Invisible Technologies (light), Sundeep Jain and Garrett Lord (light person profiles), and the Handshake AI / Robinhood Ventures / DST Global / Menlo Ventures / individual-angel entries still PENDING or unverified against a primary source. See individual files for specific "follow-up" notes.

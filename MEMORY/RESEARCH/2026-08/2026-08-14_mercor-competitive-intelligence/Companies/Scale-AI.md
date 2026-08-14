@@ -10,18 +10,22 @@ Scale AI was the dominant AI data-labeling vendor to frontier labs until **June 
 
 **Consequence:** Google (previously Scale's largest customer), OpenAI, and xAI all reportedly cut or reduced ties with Scale within weeks of the deal, redirecting spend to Surge AI, Mercor, Turing, Handshake, Invisible Technologies, Micro1, and Snorkel. This single event is the primary structural tailwind behind Mercor's 2025–2026 growth. *(HIGH — Contrary Research, direct fetch)*
 
-## Leadership note (PENDING deeper research)
+## Leadership Post-Deal
 
-Founder **Alexandr Wang** moved to Meta as part of the deal; Scale AI's current CEO/leadership structure post-deal was not independently verified in this pass — flagged for iteration 2. *(confidence: not yet rated — needs verification)*
+**Alexandr Wang** moved to Meta as part of the deal, staying on Scale's board as a director. Scale promoted **Jason Droege** (previously Chief Strategy Officer; earlier a venture partner at Benchmark and a VP at Uber) to **CEO**. Droege has publicly said Scale is "not winding down." *(HIGH — CNBC headline/framing corroborated via search; [sources.news interview summary](https://sources.news/p/scales-new-ceo-on-life-after-the) verified via direct fetch)*
+
+## Revenue Post-Deal
+
+Droege has stated **2026 revenue is expected to exceed ~$1 billion** — down sharply from the ~$2B Sacra had estimated for 2025 and the $1.5B annualized run rate Scale exited 2024 with, confirming the customer-attrition narrative. Despite the decline, Scale says it posted its best revenue in company history in the prior year and signed more than half its annual contracts in a single quarter, positioning itself as pivoting toward **enterprise deployment** clients (cited examples: Mayo Clinic, the Pentagon) rather than only frontier-lab data supply, on the logic that enterprises adopt AI capabilities roughly two years behind the model builders. *(HIGH for the $1B/~$2B/$1.5B figures — sourced from search-result synthesis of the Droege interview, corroborated by the fetched sources.news summary; MED for the enterprise-pivot framing, which comes from the same interview but through a secondary summary, not a primary transcript — the source article's full transcript is paywalled)*
 
 ## Relevance to Mercor
 
-Scale is the incumbent Mercor is taking share from — not through better technology per se, but because Mercor (like Surge, Turing, etc.) is *not* owned by a frontier lab and can credibly promise data neutrality. Scale still has scale (existing infrastructure, breadth of clients outside the very top labs) and may recover some position depending on how the Meta relationship evolves.
+Scale is the incumbent Mercor and others are taking share from — not on technology, but on neutrality: Mercor, Surge, and Turing are not owned by a frontier-lab competitor. Scale's ~50% revenue decline (from ~$2B to a guided ~$1B) is the clearest quantified evidence in this vault of how much value the "neutrality shock" transferred to Mercor and peers. Scale is not exiting the market, though — its pivot toward enterprise-deployment clients (a segment Mercor has also said it wants to diversify into, per `Companies/Mercor.md`) makes it a competitor to watch in adjacent territory, not just a shrinking incumbent.
 
 ## Sources
 
-- [Teahose — Scale AI Competitors 2026: Who Won the Data Market After the Meta Deal](https://www.teahose.com/guides/scale-ai-competitors) — found via search; WebFetch blocked (403) — corroborating only
-- [Value Add VC — How Does Scale AI Make Money: Data Labeling, RLHF, and the Meta $14.3B Stake](https://valueaddvc.com/blog/how-does-scale-ai-make-money-data-labeling-rlhf-and-the-meta-14-3b-stake) — found via search, not independently fetched this pass
-- [Contrary Research — Mercor Business Breakdown](https://research.contrary.com/company/mercor) — verified, fetched (contains corroborating detail on the Meta/Scale deal and its effect on Mercor)
-
-**Follow-up for iteration 2:** direct Scale AI profile research (current leadership, post-deal revenue, which labs if any it retained) rather than relying solely on competitor-context mentions.
+- [sources.news — Scale's new CEO on life after the $14.5 billion Meta deal](https://sources.news/p/scales-new-ceo-on-life-after-the) — verified, fetched
+- [CNBC — Scale AI not "winding down" following Meta deal, interim CEO tells employees and customers](https://www.cnbc.com/2025/06/18/scale-ai-not-winding-down-following-meta-deal-interim-ceo-says.html) — found via search; WebFetch blocked (403) — corroborating only
+- [Forbes — Inside Scale AI's business after Meta's bombshell $14 billion deal](https://www.forbes.com/sites/richardnieva/2026/05/14/scale-meta-deal/) — found via search; WebFetch blocked (403, both US and .com.au mirror) — corroborating only
+- [Teahose — Scale AI Competitors 2026](https://www.teahose.com/guides/scale-ai-competitors) — found via search; WebFetch blocked (403) — corroborating only
+- [Contrary Research — Mercor Business Breakdown](https://research.contrary.com/company/mercor) — verified, fetched (corroborating detail on the Meta/Scale deal and its effect on Mercor)
