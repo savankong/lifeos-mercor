@@ -31,6 +31,10 @@ Founded January 2023 as an AI-powered technical recruiting marketplace by three 
 
 Individual angel backers reported across rounds: **Peter Thiel, Jack Dorsey, Adam D'Angelo, Larry Summers**. *(MED — Bloomberg/TechCrunch via search, Sacra)*
 
+## Talent Market Focus
+
+Mercor's supply side targets **mid-to-senior credentialed professionals with real-world career experience** — doctors, lawyers, PhDs, senior software engineers, finance professionals, and notably **former investment bankers, management consultants, and law-firm associates**. Foody has framed this explicitly: AI labs want to automate the value chains of industries whose incumbent firms won't hand over proprietary data, so Mercor recruits the *people* who used to do that work directly. This is a fundamentally different pool from Handshake AI's students/new-grads/graduate-scholars pipeline, Surge AI's ultra-elite bar (Supreme Court clerks, Pulitzer winners), or Turing's globally-distributed software engineers — Mercor's differentiator is **applied professional judgment from people already mid-career**, sourced from the open market via its own AI-vetting funnel (no institutional pipeline or geographic-arbitrage angle). *(HIGH — TechCrunch Foody quote, verified via fetch; positioning-vs-field synthesis is this vault's own analysis)*
+
 ## Business Model & Unit Economics
 
 **Core mechanic: a labor marketplace with a cost-plus spread, not a SaaS/license model.** AI labs are billed an hourly "cost-plus" rate for the time a matched expert spends on a task; Mercor takes the spread between what the client pays and what the contractor is paid. *(HIGH — Value Add VC, verified via fetch)*

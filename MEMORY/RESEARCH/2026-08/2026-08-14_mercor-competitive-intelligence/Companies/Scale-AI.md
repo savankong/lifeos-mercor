@@ -10,6 +10,12 @@ Scale AI was the dominant AI data-labeling vendor to frontier labs until **June 
 
 **Consequence:** Google (previously Scale's largest customer), OpenAI, and xAI all reportedly cut or reduced ties with Scale within weeks of the deal, redirecting spend to Surge AI, Mercor, Turing, Handshake, Invisible Technologies, Micro1, and Snorkel. This single event is the primary structural tailwind behind Mercor's 2025–2026 growth. *(HIGH — Contrary Research, direct fetch)*
 
+## Talent Market Focus
+
+Scale's supply side is bifurcated and historically the **broadest/lowest-bar** pool in this competitive set. Its consumer-facing gig platforms — **Outlier** and **Remotasks** — recruit mass-market general-population workers at scale (reported "nearly 5,000 open jobs" recruiting drives), paying roughly **$20–40/hr** for skilled tasks and less for basic labeling, with a high-turnover, algorithmically-managed structure that labor-focused press has compared to gig-economy "digital sweatshop" models. This sits alongside separate, more specialized enterprise/RLHF contracts for higher-end work. *(MED — herohunt.ai and icytales.com coverage found via search, not independently fetched; the "digital sweatshop" framing is a press characterization, not this vault's own assessment)*
+
+**Positioning vs. the field:** Scale competes on **scale and infrastructure maturity** (oldest, most-built-out labeling pipeline) rather than on a differentiated talent-sourcing channel the way Handshake (university pipeline) or Turing (global engineering talent cloud) do. That breadth-over-selectivity model is arguably part of why Scale was more exposed to the neutrality shock — it never built the "boutique/credentialed" positioning that let Mercor, Surge, and Micro1 pitch themselves as higher-trust alternatives.
+
 ## Leadership Post-Deal
 
 **Alexandr Wang** moved to Meta as part of the deal, staying on Scale's board as a director. Scale promoted **Jason Droege** (previously Chief Strategy Officer; earlier a venture partner at Benchmark and a VP at Uber) to **CEO**. Droege has publicly said Scale is "not winding down." *(HIGH — CNBC headline/framing corroborated via search; [sources.news interview summary](https://sources.news/p/scales-new-ceo-on-life-after-the) verified via direct fetch)*

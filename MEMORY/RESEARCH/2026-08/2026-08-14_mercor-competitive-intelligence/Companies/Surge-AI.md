@@ -18,6 +18,12 @@ Surge AI (Surge HQ) is a San Francisco RLHF and data-annotation company founded 
 
 *(MED-HIGH — Wikipedia figures verified via fetch; specific fundraising-talks figures ($24-30B) sourced from search snippets of Getlatka/social-profile pieces that were not independently fetched — treat the exact valuation range as MED confidence pending primary-source confirmation.)*
 
+## Talent Market Focus
+
+Surge runs the **most elite/highest-bar talent pool** found in this competitive set: **200,000+ PhDs across 80+ languages and 500+ disciplines**, with named eligibility bars like Supreme Court clerkships, Pulitzer/National Magazine Award recognition, VC general-partner experience, C-suite startup leadership, McKinsey/Bain/BCG partner level, and Ivy League professorships. Top-end contractors ("Surgers") reportedly earn **$200–400/hr** — the highest rate ceiling of any company profiled in this vault. Sourced as an open global community rather than through any institutional pipeline (no university partnership or geographic-arbitrage model). *(HIGH — verified via direct fetch of surgehq.ai/workforce)*
+
+**Positioning vs. the field:** if Mercor's pitch is "credentialed working professionals" and Handshake's is "verified students/graduate scholars via university partnerships," Surge's is "battle-tested elite experts, no pipeline required" — the pool most explicitly selling scarcity and prestige rather than access-at-scale or lower cost.
+
 ## Relevance to Mercor
 
 Surge is the closest thing to a #1 incumbent-successor after the Scale/Meta split — it reportedly "took the frontier-lab crown" post-Scale. It competes with Mercor for the same reallocated lab budgets but via a different model: Surge's edge is annotator scale + bootstrapped credibility/independence (no VC or strategic investor to create a neutrality conflict); Mercor's edge is credentialed domain-expert depth (PhDs, doctors, lawyers) for harder reasoning/professional-domain tasks.

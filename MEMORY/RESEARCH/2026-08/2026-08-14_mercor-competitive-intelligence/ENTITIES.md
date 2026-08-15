@@ -2,7 +2,7 @@
 
 Status legend: **RESEARCHED** (profile file exists, sourced), **RESEARCHED (light)** (profile exists but thin — candidate for deeper pass), **PENDING** (identified, not yet profiled), **SKIP** (deliberately out of scope, reason given).
 
-Last updated: 2026-08-14 (Pass 3 — business model / GTM / revenue / product / metrics deep dive on Mercor)
+Last updated: 2026-08-14 (Pass 4 — talent-market segmentation added across all 7 companies; see "Talent Market Focus" section in each Companies/*.md file and the comparison table in LANDSCAPE.md)
 
 ## Companies
 

@@ -18,6 +18,12 @@ Turing (Turing.com) was originally a remote-engineering-hiring marketplace, foun
 
 *(HIGH — all figures verified via direct TechCrunch fetch: [source](https://techcrunch.com/2025/03/06/turing-a-key-coding-provider-for-openai-and-other-llm-producers-raises-111m-at-a-2-2b-valuation))*
 
+## Talent Market Focus
+
+Turing's supply side is **software engineers/developers specifically**, sourced through a global **"Talent Cloud"** of a reported 3–4 million developers, with heavy emphasis on **emerging-market remote engineering talent** — named countries include India (its largest market), Bangladesh, Brazil, Colombia, Egypt, Ghana, Pakistan, Indonesia, Kenya, Nigeria, Turkey, and Vietnam. The pitch to engineers is explicitly geographic-arbitrage: "earn US-based salaries" while working remotely from a lower-cost-of-living country. Vetting runs through Turing's own AI-scored technical assessments (coding tests, systems design, algorithms) rather than credential-based screening. *(HIGH — verified via direct fetch of turing.com)*
+
+**Positioning vs. the field:** the only company in this set built primarily on **geographic labor arbitrage** rather than domain-credential depth (Mercor, Surge, Micro1) or an institutional pipeline (Handshake). This is closer to its original 2018 remote-engineering-marketplace roots than to the newer credentialed-expert-marketplace model — Turing pivoted its *customers* toward AI labs without fully pivoting its *talent-sourcing* model.
+
 ## Relevance to Mercor
 
 Turing is Mercor's closest competitor on **capital efficiency** (profitable on only $225M raised, vs. Mercor's $492M+ raised) and is differentiated by a **coding-specific** angle rather than Mercor's cross-domain credentialed-expert (medicine/law/finance) focus — the two overlap less than "competitor" implies at the product level, but compete directly for the same frontier-lab budget line. Turing's blended ARR figure (talent-hiring + AI-data combined) makes like-for-like revenue comparison with Mercor's AI-data-only figures unreliable without a breakdown Turing has not disclosed publicly — a caveat worth carrying into any market-share estimate.

@@ -15,6 +15,12 @@ Micro1 is a vertically-integrated expert-labor marketplace operating a business 
 
 *(HIGH — Sacra, verified via direct fetch)*
 
+## Talent Market Focus
+
+Micro1's talent pool spans **early-career professionals through PhDs and industry leaders** across engineering (including PhD electrical/mechanical/chemical engineers), finance, healthcare/medical, legal, economics, linguistics, and other domains — a broad-spectrum credentialed pool much like Mercor's, filtered to a claimed **top-1% acceptance rate**. Unlike Handshake (university pipeline) or Turing (geographic engineering arbitrage), Micro1 does not appear to lean on a single distinctive sourcing channel — it recruits directly from the open market via its own AI-vetting funnel, the same model as Mercor. *(MED — search-result synthesis of micro1.ai job listings and company pages, not independently fetched this pass)*
+
+**Positioning vs. the field:** the closest talent-market clone of Mercor in this set — same "broad professional credential spectrum, no institutional pipeline" approach — reinforcing the earlier finding that Micro1 is the best available read on whether Mercor's growth is company-specific or category-wide (see Relevance below).
+
 ## Relevance to Mercor
 
 Micro1 is Mercor's closest structural analog among the smaller competitors — same expert-marketplace mechanics, similar AI-vetting pitch, similar customer set (frontier labs post-Scale-exodus) — but at roughly 1/7th Mercor's revenue scale and a fraction of its valuation. Worth tracking as a potential acquisition target or as the marketplace model's #2 proof point (i.e., is Mercor's growth company-specific or is the whole expert-marketplace category growing this fast).

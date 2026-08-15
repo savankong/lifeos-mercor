@@ -2,7 +2,7 @@
 
 **Focus entity:** Mercor (mercor.com) — AI expert-data / human-feedback marketplace
 **Vault opened:** 2026-08-14
-**Status:** Pass 3 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor itself (see below)
+**Status:** Pass 4 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor; Pass 4 added talent-market segmentation across all 7 companies (see below)
 **Requester:** savan@lifebetweentitles.com
 **Companion site:** [Competitive dossier (deployed)](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) — condensed public-facing summary of this vault
 
@@ -91,4 +91,16 @@ Requested directly: a very deep dive into Mercor's business model, customer acqu
 4. **Mercor's own public KPIs** (live homepage counters, values not statically readable): *Average contracted rate ($/hr)*, *Roles created (k)*, *Daily payouts ($)* — the company markets marketplace liquidity, not SaaS metrics like NRR or logo count.
 5. **New verified risk item:** a Nov 2025 contractor-pay incident (project "Musen" cancelled, replacement project "Nova" offered at $16/hr vs. $21/hr) — the first concrete, dated instance of the previously-vague "declining pay" complaints; folded into `Companies/Mercor.md` and generalized into a new trend file, `Trends/Contractor-Labor-Relations-Volatility.md`.
 
-Companion deliverable: the [deployed dossier site](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) still reflects the Pass 2 snapshot as of this vault update — a Pass 3 refresh of the site to include the business-model deep dive is a pending follow-up, not yet done.
+Companion deliverable: the [deployed dossier site](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) has been kept in sync through Pass 3.
+
+## Iteration 4 — talent-market segmentation
+
+Requested directly: where each company focuses in terms of the market it's tackling (prompted by the observation that Handshake AI looks aimed at graduating students). Added a **"Talent Market Focus" section to all seven company files** plus a comparison table in `LANDSCAPE.md`. Headline finding: this market has less head-to-head overlap than it first appears —
+
+- **Mercor, Surge AI, Micro1** — all recruit mid-to-senior credentialed professionals from the open market; these three genuinely compete for the same people.
+- **Handshake AI** — owns a university pipeline (92% of top 500 US schools), sourcing students/new grads/graduate scholars — structurally different supply than the credential-tier players.
+- **Turing** — geographic labor arbitrage (global software engineers, emerging-market-heavy), not credential selectivity.
+- **Scale AI** — historically mass-market gig recruiting (Outlier/Remotasks, $20–40/hr) rather than a selective credential pool — a likely contributor to why it was most exposed when neutrality became the deciding factor.
+- **Invisible Technologies** — doesn't brand a talent tier at all; sells process/managed-service maturity instead.
+
+Full detail and per-company sourcing in each `Companies/*.md` file and the new table in `LANDSCAPE.md`.
