@@ -153,6 +153,10 @@ Flagged this plainly and asked which direction to take rather than building mark
 
 Requested directly, after being asked to set aside prior framing: is "users answer questions on Your Roster's site, we sell the answers" viable? Answer in **[YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md](YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md)**: the model is proven (it's literally Mercor's, Surge's, and Handshake's business), but entering it faces four structural obstacles, not just execution challenges — (1) the buyers already build this themselves and would rather recruit contributors directly than buy a dataset, meaning the intended buyers are also the competitors; (2) frontier labs are unusually cautious about new data vendors post-Scale-AI-collapse, with no public vendor-intake program found for Anthropic or OpenAI; (3) quality infrastructure at market rates ($85–400+/hr) is expensive to build before any buyer commits; (4) no identified wedge yet — nothing distinguishes Your Roster's user base from the professionals Mercor already recruits. Bottom line: good model, hard entry without a specific defensible niche; the referral path (Path A in `YOUR-ROSTER-EXPERT-DATA-STRATEGY.md`) remains the lower-risk way to get exposure to this market.
 
+## Iteration 11 — fact-checking a refined broker-model pitch
+
+A follow-up plan refined Path A into a specific brokerage structure ("I source proprietary data/expertise for frontier AI companies," not "I sell training data") and proposed a defense/government vertical as the wedge. Before folding it in, checked its two specific factual claims: **confirmed** — Handshake AI is actively hiring a "Data Partnership Strategist" (verified via direct fetch of their careers page) to do exactly this function in-house, a strong signal. **Not confirmed** — the claimed $175K OTE for that role (not shown on the live posting) and the claimed $60M/month paid to 30,000+ people (verified figures are $100M *cumulative* payouts to 100,000+ *total* fellows — a different metric). Also flagged directly: the defense/government "unfair advantage" traces back to this vault's own illustrative example from Pass 5, not new evidence — repeating it doesn't validate it. Full fact-check and reasoning in `YOUR-ROSTER-EXPERT-DATA-STRATEGY.md`'s "Pass 11 update" section.
+
 ## Vault history at a glance
 
 | Pass(es) | What it was about |
@@ -164,5 +168,6 @@ Requested directly, after being asked to set aside prior framing: is "users answ
 | 8 | Reorientation: the vault's actual subject is Your Roster, a warm-intro job-search platform; is this labor-market vertical a good target for it |
 | 9 | Correcting the monetization plan: rejected reselling scraped LinkedIn connections data, replaced with a consented first-party expert-data strategy |
 | 10 | Direct assessment: can Your Roster actually compete as a seller of user-answered-question data? Four structural obstacles identified |
+| 11 | Fact-checked a refined broker-model pitch: confirmed Handshake AI is hiring for exactly this function; could not confirm the claimed compensation figure or the $60M/month payout claim; flagged that the defense/government "wedge" traces to this vault's own earlier illustrative example, not new evidence |
 
 Nothing from Passes 1–7 was deleted — it's accurate, sourced research and much of it (the verified buyer programs, the named contacts, the talent-segmentation table) feeds directly into Pass 9's recommendations. The framing changed; the underlying facts didn't.
