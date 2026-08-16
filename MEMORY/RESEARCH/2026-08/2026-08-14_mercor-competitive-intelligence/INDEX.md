@@ -10,6 +10,7 @@
 
 ## Read this first
 
+- **[YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md](YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md)** — direct assessment: can Your Roster compete as a seller of user-answered-question data? Four structural obstacles, bottom line
 - **[YOUR-ROSTER-OPPORTUNITY.md](YOUR-ROSTER-OPPORTUNITY.md)** — why this labor-market vertical fits Your Roster's actual product, the target-company/ATS matrix, and the alumni-network finding
 - **[YOUR-ROSTER-EXPERT-DATA-STRATEGY.md](YOUR-ROSTER-EXPERT-DATA-STRATEGY.md)** — the monetization strategy: sourcing/referral partnerships vs. building a proprietary expert-data product, and why reselling scraped LinkedIn connections data was rejected
 - [SUMMARY.md](SUMMARY.md) — the underlying Mercor/competitor research, 5-minute version
@@ -148,6 +149,10 @@ The requester then described wanting Your Roster to acquire website customers, h
 
 Flagged this plainly and asked which direction to take rather than building marketing copy on an assumption. The requester chose the safer, better-aligned path: **[YOUR-ROSTER-EXPERT-DATA-STRATEGY.md](YOUR-ROSTER-EXPERT-DATA-STRATEGY.md)** lays out a first-party, consented alternative — Your Roster's users contributing their *own* professional judgment/expertise (paid, explicitly opted-in), not their connections' data. Two paths are given: **Path A** (fast, low-risk) — refer matching users into Mercor/Surge/Micro1/Handshake's *existing* contractor/expert programs, though the referral-fee mechanics for individual candidates (as opposed to the enterprise-data referral bonuses already verified) are unconfirmed and would need a direct BD conversation, not an assumed self-serve fee. **Path B** (bigger lift) — build a proprietary, consent-based expert-response dataset and pitch it to Handshake AI first (the closest structural fit), noting that a direct pitch to Anthropic or OpenAI has no verified public program to plug into and more realistically runs through an intermediary like Mercor or Handshake.
 
+## Iteration 10 — direct assessment of the "sell user answers" business
+
+Requested directly, after being asked to set aside prior framing: is "users answer questions on Your Roster's site, we sell the answers" viable? Answer in **[YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md](YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md)**: the model is proven (it's literally Mercor's, Surge's, and Handshake's business), but entering it faces four structural obstacles, not just execution challenges — (1) the buyers already build this themselves and would rather recruit contributors directly than buy a dataset, meaning the intended buyers are also the competitors; (2) frontier labs are unusually cautious about new data vendors post-Scale-AI-collapse, with no public vendor-intake program found for Anthropic or OpenAI; (3) quality infrastructure at market rates ($85–400+/hr) is expensive to build before any buyer commits; (4) no identified wedge yet — nothing distinguishes Your Roster's user base from the professionals Mercor already recruits. Bottom line: good model, hard entry without a specific defensible niche; the referral path (Path A in `YOUR-ROSTER-EXPERT-DATA-STRATEGY.md`) remains the lower-risk way to get exposure to this market.
+
 ## Vault history at a glance
 
 | Pass(es) | What it was about |
@@ -158,5 +163,6 @@ Flagged this plainly and asked which direction to take rather than building mark
 | 5–7 | A data-brokerage angle: how to sell data/expertise *into* Mercor/Scale/Handshake, including verified vendor programs and named contacts — **written under an incorrect assumption about who this research was for** |
 | 8 | Reorientation: the vault's actual subject is Your Roster, a warm-intro job-search platform; is this labor-market vertical a good target for it |
 | 9 | Correcting the monetization plan: rejected reselling scraped LinkedIn connections data, replaced with a consented first-party expert-data strategy |
+| 10 | Direct assessment: can Your Roster actually compete as a seller of user-answered-question data? Four structural obstacles identified |
 
 Nothing from Passes 1–7 was deleted — it's accurate, sourced research and much of it (the verified buyer programs, the named contacts, the talent-segmentation table) feeds directly into Pass 9's recommendations. The framing changed; the underlying facts didn't.
