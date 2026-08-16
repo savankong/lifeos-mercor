@@ -6,6 +6,8 @@
 
 **Important framing correction up front:** an earlier draft analysis circulated alongside this request claimed Handshake has an "Employer Data Program" and Surge has a "Consulting Program" as formal vendor-facing offers. I independently verified each claim against primary sources before writing anything below — some held up, one didn't quite. See the per-company notes for what changed.
 
+**Pass 9 superseding note:** this document was written under the assumption that the requester wanted to sell *enterprise operational data* generically. Pass 8 established that the actual subject of this vault is **Your Roster**, a warm-intro job-search platform, and Pass 9 rejected a proposed plan to resell scraped LinkedIn connections data (a likely ToS/privacy problem) in favor of a consented, first-party expert-data model instead. **The buyer-program research below (Mercor Data, Scale AI Data Partnership, Handshake AI Data Partnerships) remains accurate and is directly reused in [YOUR-ROSTER-EXPERT-DATA-STRATEGY.md](YOUR-ROSTER-EXPERT-DATA-STRATEGY.md)** — only the framing of *who* is selling *what* has changed, not the underlying facts about these companies' programs.
+
 ---
 
 ## The three ways to sell into this market

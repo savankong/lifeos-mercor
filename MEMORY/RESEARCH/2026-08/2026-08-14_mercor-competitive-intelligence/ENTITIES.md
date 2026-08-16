@@ -2,7 +2,7 @@
 
 Status legend: **RESEARCHED** (profile file exists, sourced), **RESEARCHED (light)** (profile exists but thin — candidate for deeper pass), **PENDING** (identified, not yet profiled), **SKIP** (deliberately out of scope, reason given).
 
-Last updated: 2026-08-16 (Pass 7 — gave Yang Zhao and Sahil Bhaiwala dedicated People files and added LinkedIn profile links for the three named BD contacts (Yang Zhao, Sahil Bhaiwala, Edwin Chen) across SELLING-STRATEGY.md, ENTITIES.md, and the deployed site. Pass 6 added application links and the intake materials checklist; Pass 5 added the underlying go-to-market analysis; Pass 4 added talent-market segmentation across all 7 companies)
+Last updated: 2026-08-16 (Pass 9 — vault reoriented around Your Roster (see YOUR-ROSTER-OPPORTUNITY.md and YOUR-ROSTER-EXPERT-DATA-STRATEGY.md at the vault root); the entity catalog below still reflects the Mercor/competitor research from Passes 1–7, which remains accurate and is now supporting material rather than the vault's primary subject — see INDEX.md's "Vault history" table for the full timeline)
 
 ## Companies
 

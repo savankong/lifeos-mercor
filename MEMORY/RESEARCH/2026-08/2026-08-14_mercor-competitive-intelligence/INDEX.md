@@ -1,16 +1,20 @@
-\# INDEX — Mercor Competitive Intelligence Vault
+\# INDEX — Your Roster's Opportunity in the AI Expert-Data Labor Market
 
-**Focus entity:** Mercor (mercor.com) — AI expert-data / human-feedback marketplace
+*(Formerly "Mercor Competitive Intelligence Vault." Reoriented in Pass 8 — see below. Mercor and its competitors are now supporting research, not the subject.)*
+
+**Subject:** Your Roster (yourrosterapp.com) — a warm-intro job-search platform — and its opportunity in the AI expert-data labor market (Mercor, Scale AI, Surge AI, Handshake AI, Turing, Micro1, Invisible Technologies)
 **Vault opened:** 2026-08-14
-**Status:** Pass 6 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor; Pass 4 added talent-market segmentation across all 7 companies; Pass 5 added a verified go-to-market analysis for selling data/expertise into these companies; Pass 6 added direct application links, intake-materials checklist, and named BD contacts — and caught a live leadership change at Scale AI in the process (see below)
+**Status:** Pass 9 complete. See "Vault history" at the bottom for the full pass-by-pass record — this vault changed direction twice (Pass 5's data-brokerage framing, then Pass 8's reorientation to Your Roster, then Pass 9's correction on *how* Your Roster should monetize data) and each turn is preserved rather than silently overwritten.
 **Requester:** savan@lifebetweentitles.com
-**Companion site:** [Competitive dossier (deployed)](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) — condensed public-facing summary of this vault
+**Companion site:** [Dossier (deployed)](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) — currently reflects the Pass 1–7 Mercor-focused framing; a Pass 8/9 refresh to the Your Roster framing is a pending follow-up
 
 ## Read this first
 
-- [SUMMARY.md](SUMMARY.md) — the 5-minute version
-- [LANDSCAPE.md](LANDSCAPE.md) — the full synthesized narrative
-- [SELLING-STRATEGY.md](SELLING-STRATEGY.md) — verified go-to-market analysis: how to actually sell data/expertise into Mercor, Scale AI, Handshake AI, and others
+- **[YOUR-ROSTER-OPPORTUNITY.md](YOUR-ROSTER-OPPORTUNITY.md)** — why this labor-market vertical fits Your Roster's actual product, the target-company/ATS matrix, and the alumni-network finding
+- **[YOUR-ROSTER-EXPERT-DATA-STRATEGY.md](YOUR-ROSTER-EXPERT-DATA-STRATEGY.md)** — the monetization strategy: sourcing/referral partnerships vs. building a proprietary expert-data product, and why reselling scraped LinkedIn connections data was rejected
+- [SUMMARY.md](SUMMARY.md) — the underlying Mercor/competitor research, 5-minute version
+- [LANDSCAPE.md](LANDSCAPE.md) — the full synthesized market narrative
+- [SELLING-STRATEGY.md](SELLING-STRATEGY.md) — verified data-vendor programs at Mercor/Scale AI/Handshake AI (written under an earlier, since-corrected assumption about Your Roster's business model — see Pass 9 note below — but the underlying program research is still accurate and feeds directly into the expert-data strategy)
 - [ENTITIES.md](ENTITIES.md) — every entity in scope, with RESEARCHED/PENDING/SKIP status and gate tracking
 
 ## Companies
@@ -127,3 +131,32 @@ Requested directly: add the actual application links/documents and identify who 
 - **A materials checklist** (org/data description, scale & format, de-identification plan, proof of authorization, company-size signal) inferred from what each intake process actually asks for.
 - **Named people**, confidence-tagged: **Yang Zhao (Handshake AI Chief Business Officer)** is the strongest, most directly relevant contact found across all seven companies — explicitly leads BD for the whole Handshake AI unit, verified via Handshake's own announcement. Sahil Bhaiwala (Handshake AI Chief Strategy Officer) as a secondary contact. Edwin Chen (Surge AI founder/CEO) flagged as the plausible de facto contact given the company's small size and lack of a distinct BD org. For Mercor, Invisible Technologies, and Turing — **no confirmed current named contact was found**; said so directly rather than guessing.
 - **Live correction caught in the process:** while researching Scale AI's leadership for a BD contact, found that **Scale named a new permanent CEO, Francis deSouza, effective August 10, 2026** — six days before this update — superseding interim CEO Jason Droege, who had been referenced throughout this vault since Pass 2. Corrected everywhere: `Companies/Scale-AI.md`, `ENTITIES.md`, `LANDSCAPE.md`, and the deployed site.
+
+## Iteration 7 — dedicated profiles and LinkedIn links for the three named contacts
+
+Requested directly: don't leave Yang Zhao, Sahil Bhaiwala, and Edwin Chen out of the dossier, and add LinkedIn. Gave Yang Zhao and Sahil Bhaiwala dedicated `People/` files (previously they only existed inside `SELLING-STRATEGY.md`). Added verified LinkedIn URLs for Yang Zhao and Edwin Chen (cross-referenced via search-snippet title matches, since LinkedIn blocks automated fetching). **Could not find a verifiable LinkedIn URL for Sahil Bhaiwala** despite a direct search — said so rather than guessing one, and linked his TheOrg profile instead.
+
+## Iteration 8 — reorientation: this vault is now about Your Roster, not Mercor
+
+Requested directly: reorient the dossier to be about how **Your Roster** — the requester's own company — can break into this market, not about Mercor. I had no prior information about Your Roster and couldn't find it via search, so I asked what it does rather than guess. The answer: **Your Roster is a warm-intro job-search platform** — it cross-references a user's LinkedIn connections against companies with open roles on public job boards (Greenhouse/Lever/Ashby/generic pages) and drafts editable warm-intro requests; it never messages on a user's behalf and never surfaces a company without an existing connection there.
+
+That's a fundamentally different business than the data-brokerage framing `SELLING-STRATEGY.md` was built around (Iterations 5–7), so this iteration reoriented the vault's purpose rather than patching the old framing: **[YOUR-ROSTER-OPPORTUNITY.md](YOUR-ROSTER-OPPORTUNITY.md)** asks whether this AI-labor-market company cluster is a good *target vertical* for Your Roster's actual product. Findings: yes, on fit — Mercor and Handshake AI both run on Ashby, Scale AI runs on Greenhouse (**210 open roles**, verified live), all inside what Your Roster's board-discovery already parses; the talent profile these companies recruit (credentialed mid-career professionals) overlaps with Your Roster's target user (5+ years experience, 500+ connections); and a concrete alumni-network finding — **Yang Zhao and Sahil Bhaiwala both moved from Scale AI to Handshake AI** — is a real, dated, two-person proof point for exactly the multi-hop warm-intro graph structure Your Roster's product is built to exploit.
+
+## Iteration 9 — correcting the data-monetization plan before building on it
+
+The requester then described wanting Your Roster to acquire website customers, have them "fill out information," and sell the resulting data to Mercor, Handshake, or directly to Anthropic/OpenAI. I paused before building positioning around this: the "information" in question, per Your Roster's own product spec, is primarily **LinkedIn connections data — names, companies, and titles of other people who never signed up for Your Roster or consented to anything**. Reselling that would very likely violate LinkedIn's User Agreement, creates real privacy exposure regarding those third parties, and directly contradicts principles the requester stated Your Roster already holds ("raw connection files are never stored," graph participation is "opt-in"). I also cross-checked against this vault's own verified research: none of Mercor's, Scale AI's, or Handshake AI's actual data-partnership programs buy scraped connection-graph data — they buy enterprise operational data (with the enterprise's own consent) or first-person expert judgment.
+
+Flagged this plainly and asked which direction to take rather than building marketing copy on an assumption. The requester chose the safer, better-aligned path: **[YOUR-ROSTER-EXPERT-DATA-STRATEGY.md](YOUR-ROSTER-EXPERT-DATA-STRATEGY.md)** lays out a first-party, consented alternative — Your Roster's users contributing their *own* professional judgment/expertise (paid, explicitly opted-in), not their connections' data. Two paths are given: **Path A** (fast, low-risk) — refer matching users into Mercor/Surge/Micro1/Handshake's *existing* contractor/expert programs, though the referral-fee mechanics for individual candidates (as opposed to the enterprise-data referral bonuses already verified) are unconfirmed and would need a direct BD conversation, not an assumed self-serve fee. **Path B** (bigger lift) — build a proprietary, consent-based expert-response dataset and pitch it to Handshake AI first (the closest structural fit), noting that a direct pitch to Anthropic or OpenAI has no verified public program to plug into and more realistically runs through an intermediary like Mercor or Handshake.
+
+## Vault history at a glance
+
+| Pass(es) | What it was about |
+|---|---|
+| 1–2 | Mercor competitive-intelligence baseline: company/people/investor/product/trend research on Mercor and 6 competitors |
+| 3 | Deep dive on Mercor's own business model, GTM, revenue, and full product portfolio |
+| 4 | Talent-market segmentation across all 7 companies |
+| 5–7 | A data-brokerage angle: how to sell data/expertise *into* Mercor/Scale/Handshake, including verified vendor programs and named contacts — **written under an incorrect assumption about who this research was for** |
+| 8 | Reorientation: the vault's actual subject is Your Roster, a warm-intro job-search platform; is this labor-market vertical a good target for it |
+| 9 | Correcting the monetization plan: rejected reselling scraped LinkedIn connections data, replaced with a consented first-party expert-data strategy |
+
+Nothing from Passes 1–7 was deleted — it's accurate, sourced research and much of it (the verified buyer programs, the named contacts, the talent-segmentation table) feeds directly into Pass 9's recommendations. The framing changed; the underlying facts didn't.
