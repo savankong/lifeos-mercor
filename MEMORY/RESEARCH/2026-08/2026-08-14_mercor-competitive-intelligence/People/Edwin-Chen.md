@@ -12,7 +12,14 @@ Founder and CEO of Surge AI (founded 2020). Ex-Google, ex-Twitter; MIT backgroun
 
 Chen is the one major founder in this space who has never needed to answer to venture investors, which is directly relevant to the "neutrality" dynamic that damaged Scale AI post-Meta-deal — Surge's independence is a competitive asset Mercor cannot claim once (if) it takes a strategic investor.
 
+## Business-Development Contact Relevance
+
+Surge AI has no verified company-level data-vendor or talent-pipeline referral program (see `../SELLING-STRATEGY.md`) and, at only ~110–121 employees with no distinct BD organization found, **Chen is plausibly still the de facto decision-maker** for any deal beyond routine individual expert hiring. This is this vault's inference from company size, not a direct statement that Chen personally handles business development — treat accordingly when planning outreach.
+
+**LinkedIn:** [linkedin.com/in/edwinzchen](https://www.linkedin.com/in/edwinzchen/) *(MED — identified via search result whose title explicitly read "Edwin Chen - Surge AI | LinkedIn", matching his company; LinkedIn itself blocks automated fetching so the profile content was not independently verified beyond the search snippet)*
+
 ## Sources
 
 - [Surge AI — Wikipedia](https://en.wikipedia.org/wiki/Surge_AI) — verified, fetched
 - [Inc. — Bootstrapped to $1 Billion](https://www.inc.com/sam-blum/bootstrapped-to-1-billion-surge-ai-ceo-edwin-chen-on-how-he-did-it/91207937) — found via search, not independently fetched
+- LinkedIn profile URL — found via search (title match), not independently fetched (LinkedIn blocks automated access)

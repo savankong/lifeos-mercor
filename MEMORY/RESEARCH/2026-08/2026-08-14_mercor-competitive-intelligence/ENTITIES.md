@@ -2,7 +2,7 @@
 
 Status legend: **RESEARCHED** (profile file exists, sourced), **RESEARCHED (light)** (profile exists but thin — candidate for deeper pass), **PENDING** (identified, not yet profiled), **SKIP** (deliberately out of scope, reason given).
 
-Last updated: 2026-08-16 (Pass 6 — added application links, intake materials checklist, and named BD contacts to [SELLING-STRATEGY.md](SELLING-STRATEGY.md); corrected a since-superseded Scale AI CEO reference — Francis deSouza replaced interim CEO Jason Droege effective Aug 10 2026, caught during Pass-6 research. Pass 5 added the underlying go-to-market analysis; Pass 4 added talent-market segmentation across all 7 companies)
+Last updated: 2026-08-16 (Pass 7 — gave Yang Zhao and Sahil Bhaiwala dedicated People files and added LinkedIn profile links for the three named BD contacts (Yang Zhao, Sahil Bhaiwala, Edwin Chen) across SELLING-STRATEGY.md, ENTITIES.md, and the deployed site. Pass 6 added application links and the intake materials checklist; Pass 5 added the underlying go-to-market analysis; Pass 4 added talent-market segmentation across all 7 companies)
 
 ## Companies
 
@@ -33,8 +33,9 @@ Last updated: 2026-08-16 (Pass 6 — added application links, intake materials c
 | Alexandr Wang (ex-Scale AI CEO, now Meta) | RESEARCHED (light, within company file) | MEDIUM | covered in [Companies/Scale-AI.md](Companies/Scale-AI.md); no dedicated person profile |
 | Francis deSouza (Scale AI CEO, effective Aug 10 2026) | RESEARCHED (light, within company file) | MEDIUM | **updated Pass 6** — ex-Google Cloud COO/President, ex-Illumina CEO; replaced interim CEO Jason Droege; covered in [Companies/Scale-AI.md](Companies/Scale-AI.md) |
 | Jason Droege (Scale AI interim CEO, Jun 2025–Aug 2026) | RESEARCHED (light, within company file) | LOW | superseded by deSouza — kept for historical accuracy; covered in [Companies/Scale-AI.md](Companies/Scale-AI.md) |
-| Yang Zhao (Handshake AI Chief Business Officer) | RESEARCHED (light) | HIGH | **new Pass 6** — leads all business/operations development for Handshake AI; ex-Scale AI Head of Product Deployment and Operations; verified via [Handshake blog](https://joinhandshake.com/blog/our-team/welcoming-sahil-bhaiwala-and-yang-zhao-to-handshake-ai/) |
-| Sahil Bhaiwala (Handshake AI Chief Strategy and Innovation Officer) | RESEARCHED (light) | MEDIUM | **new Pass 6** — ex-Scale AI GM/Director of Product & AI; same source as above |
+| Yang Zhao (Handshake AI Chief Business Officer) | RESEARCHED | CRITICAL | **upgraded to dedicated file, Pass 7** — top verified BD contact across all seven companies; [People/Yang-Zhao.md](People/Yang-Zhao.md), LinkedIn linked |
+| Sahil Bhaiwala (Handshake AI Chief Strategy and Innovation Officer) | RESEARCHED | HIGH | **upgraded to dedicated file, Pass 7** — secondary BD contact; [People/Sahil-Bhaiwala.md](People/Sahil-Bhaiwala.md); no verifiable LinkedIn URL found |
+| Edwin Chen — LinkedIn added | RESEARCHED | HIGH | **updated Pass 7** — [People/Edwin-Chen.md](People/Edwin-Chen.md) now includes LinkedIn and BD-contact framing |
 | Jonathan Siddharth (Turing CEO) | RESEARCHED (light, within company file) | MEDIUM | identified iteration 2; covered in [Companies/Turing.md](Companies/Turing.md), no dedicated person profile |
 | Micro1, Invisible Technologies founders/CEOs | PENDING | MEDIUM | not identified as of iteration 2 |
 

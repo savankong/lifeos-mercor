@@ -30,8 +30,10 @@
 - [Adarsh Hiremath](People/Adarsh-Hiremath.md) — Mercor CTO/co-founder
 - [Surya Midha](People/Surya-Midha.md) — Mercor Chairman/co-founder
 - [Sundeep Jain](People/Sundeep-Jain.md) — Mercor President
-- [Edwin Chen](People/Edwin-Chen.md) — Surge AI founder/CEO
+- [Edwin Chen](People/Edwin-Chen.md) — Surge AI founder/CEO; LinkedIn linked; plausible BD contact
 - [Garrett Lord](People/Garrett-Lord.md) — Handshake CEO
+- [Yang Zhao](People/Yang-Zhao.md) — Handshake AI Chief Business Officer; **top verified BD contact in this vault**; LinkedIn linked
+- [Sahil Bhaiwala](People/Sahil-Bhaiwala.md) — Handshake AI Chief Strategy Officer; secondary BD contact
 
 ## Products
 
