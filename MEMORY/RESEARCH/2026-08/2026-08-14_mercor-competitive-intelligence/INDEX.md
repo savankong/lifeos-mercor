@@ -2,7 +2,7 @@
 
 **Focus entity:** Mercor (mercor.com) — AI expert-data / human-feedback marketplace
 **Vault opened:** 2026-08-14
-**Status:** Pass 5 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor; Pass 4 added talent-market segmentation across all 7 companies; Pass 5 added a verified go-to-market analysis for selling data/expertise into these companies (see below)
+**Status:** Pass 6 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor; Pass 4 added talent-market segmentation across all 7 companies; Pass 5 added a verified go-to-market analysis for selling data/expertise into these companies; Pass 6 added direct application links, intake-materials checklist, and named BD contacts — and caught a live leadership change at Scale AI in the process (see below)
 **Requester:** savan@lifebetweentitles.com
 **Companion site:** [Competitive dossier (deployed)](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) — condensed public-facing summary of this vault
 
@@ -76,7 +76,7 @@ The requester confirmed the pass-1 defaults are correct: the competitor set (Sca
 ## Iteration 2 — what changed
 
 1. **Turing** — new full profile: CEO Jonathan Siddharth, ~$300M ARR (blended talent + AI-data revenue — flagged as not directly comparable to Mercor's AI-data-only figures), $2.2B valuation, profitable, coding-focused niche.
-2. **Scale AI** — upgraded from a light, competitor-context-only entry to a full profile: new CEO Jason Droege (ex-Benchmark, ex-Uber), 2026 revenue guided to ~$1B (down from ~$2B in 2025) — the clearest quantified evidence in this vault of how much value the neutrality shock transferred away from Scale.
+2. **Scale AI** — upgraded from a light, competitor-context-only entry to a full profile: interim CEO Jason Droege (ex-Benchmark, ex-Uber) guided 2026 revenue to ~$1B (down from ~$2B in 2025) — the clearest quantified evidence in this vault of how much value the neutrality shock transferred away from Scale. **Superseded in Pass 6:** Scale named a permanent CEO, Francis deSouza, effective Aug 10 2026.
 3. **Handshake AI revenue claims** — re-verified. The $50M-in-4-months / $100M-in-12-months figures trace to a podcast episode *description* (Lenny's Newsletter), not a confirmed direct quote from CEO Garrett Lord in accessible content; the ~$1B-by-April-2026 figure could not be reached via two independent fetch attempts (403, then 503). Confidence held at MED, with the caveat now more precise.
 4. **Market-size estimates** — reconciled against one primary source (Fortune Business Insights, fetched directly: $4.44B in 2026 → $23.18B by 2034, 22.9% CAGR). The wide spread across research firms turns out to be a genuine scope/definition disagreement (raw datasets vs. broader human-labor/RLHF services), not just noisy reporting — kept as CONFLICT rather than resolved to one number.
 
@@ -116,3 +116,12 @@ Requested directly: expand on ways to sell data into these companies, working fr
 - Also checked and found **no verifiable program** for Turing.com specifically (a same-named but likely-unrelated "Turing.ai" surfaced in search — flagged so it isn't confused with the Turing profiled elsewhere in this vault), and found Invisible Technologies' "Partnerships" page to be a generic, terms-free contact form.
 
 The illustrative defense/DoD expert-network example from the shared draft is preserved in `SELLING-STRATEGY.md` as a worked example of the "talent pipeline" strategy, explicitly flagged as illustrative rather than a confirmed opportunity.
+
+## Iteration 6 — links, documents, and named people to broker these deals
+
+Requested directly: add the actual application links/documents and identify who to contact. Added to `SELLING-STRATEGY.md`:
+
+- **Application links** for all five companies with a real or partial channel (Mercor, Scale AI, Handshake AI, Surge AI, Invisible Technologies) — no email addresses invented; only what each company actually publishes.
+- **A materials checklist** (org/data description, scale & format, de-identification plan, proof of authorization, company-size signal) inferred from what each intake process actually asks for.
+- **Named people**, confidence-tagged: **Yang Zhao (Handshake AI Chief Business Officer)** is the strongest, most directly relevant contact found across all seven companies — explicitly leads BD for the whole Handshake AI unit, verified via Handshake's own announcement. Sahil Bhaiwala (Handshake AI Chief Strategy Officer) as a secondary contact. Edwin Chen (Surge AI founder/CEO) flagged as the plausible de facto contact given the company's small size and lack of a distinct BD org. For Mercor, Invisible Technologies, and Turing — **no confirmed current named contact was found**; said so directly rather than guessing.
+- **Live correction caught in the process:** while researching Scale AI's leadership for a BD contact, found that **Scale named a new permanent CEO, Francis deSouza, effective August 10, 2026** — six days before this update — superseding interim CEO Jason Droege, who had been referenced throughout this vault since Pass 2. Corrected everywhere: `Companies/Scale-AI.md`, `ENTITIES.md`, `LANDSCAPE.md`, and the deployed site.

@@ -1,8 +1,8 @@
 \# Selling Data & Expertise Into This Market
 
 **Status:** RESEARCHED
-**Pass 5 — 2026-08-14**
-**Purpose:** actionable go-to-market analysis for supplying human expertise and/or enterprise operational data into the companies profiled in this vault, prompted by a specific question: which of Mercor, Surge AI, Handshake AI (and others) have real data-vendor/partner mechanisms, and how would selling into each actually work.
+**Pass 5–6 — 2026-08-14/16**
+**Purpose:** actionable go-to-market analysis for supplying human expertise and/or enterprise operational data into the companies profiled in this vault, prompted by a specific question: which of Mercor, Surge AI, Handshake AI (and others) have real data-vendor/partner mechanisms, and how would selling into each actually work. Pass 6 adds the direct application links, the materials each intake process actually asks for, and named people to target for outreach.
 
 **Important framing correction up front:** an earlier draft analysis circulated alongside this request claimed Handshake has an "Employer Data Program" and Surge has a "Consulting Program" as formal vendor-facing offers. I independently verified each claim against primary sources before writing anything below — some held up, one didn't quite. See the per-company notes for what changed.
 
@@ -24,6 +24,44 @@
 | **Surge AI** | **No formal company/data-vendor program found** | Individual expert labor only, via its normal "Workforce" hiring funnel (e.g., a "Management Consultant — McKinsey/Bain/BCG or equivalent" role posting) | N/A — this is a job-application flow for individuals, not a company-level referral or data-partnership program | Apply as an individual expert; no published mechanism to introduce a company or a talent *pipeline* and get paid for it | **CORRECTION to the earlier draft**, which described a "Consulting Program" for exactly this — I could not find one. What exists is Surge's standard expert-hiring page, which is a different thing. Selling Surge a *pipeline* of people would require cold business-development outreach with no published terms, not a self-serve program |
 | **Invisible Technologies** | [Partnerships](https://invisibletech.ai/partnerships) page | Unclear — page is a generic "where do you see opportunities for partnership?" contact form | Not disclosed at all | Contact form only, routes to a sales conversation | LOW — verified the page exists and is this generic, via direct fetch; no specifics to evaluate |
 | **Turing** | **No program found** | Unclear | Not disclosed | Not disclosed | Could not verify a company-level data/vendor program in this pass. Note: search results surfaced a "Turing Partner Program" at `turing.ai` — **this is very likely a different, unrelated company** (domain and content don't match Turing.com, the AI-data company profiled elsewhere in this vault); flagging so it isn't mistaken for the same Turing |
+
+## Links & documents — the actual application channels
+
+These are the real, working links to start each process (all independently verified by fetching the page directly, per this vault's citation standard). No email addresses are listed below because none of these companies publish one for this purpose — every program routes through a form or booked call, and inventing a plausible-looking email would violate this vault's own sourcing standard, so don't use one that isn't shown here.
+
+| Company | Start here | What happens next |
+|---|---|---|
+| **Mercor** | [mercor.com/data](https://www.mercor.com/data/) | No public intake form was found on the page itself (unlike Scale/Handshake) — the page is positioned for enterprises to connect via OAuth integrations directly; for a referral/broker approach, the clearest path is applying to Mercor's own **[Data Partnership Lead](https://jobs.ashbyhq.com/mercor/dbf687c6-4d7e-4c56-a82e-a8b304e2a4e3)** or **[Healthcare Data Partnerships Lead](https://jobs.ashbyhq.com/mercor/8b040903-f37d-4bdb-86d3-049227f12669)** job postings' listed application channel, or reaching the team via a general partnership inquiry through mercor.com's contact channels — Mercor does not publish a dedicated external-partner intake form the way Scale and Handshake do |
+| **Scale AI** | [scale.com/data-partnership](https://scale.com/data-partnership) | "Book an intro call" — direct, self-serve scheduling, no application gatekeeping found |
+| **Handshake AI** | [joinhandshake.com/ai/data-partnerships/](https://joinhandshake.com/ai/data-partnerships/) | Submit an intake form (org, data type, scale, format — no commitment) → Handshake schedules a scoping call |
+| **Surge AI** | [surgehq.ai/workforce](https://surgehq.ai/workforce) | This is the *individual expert* application funnel, not a company/pipeline channel — there is no verified company-level intake point; a pipeline pitch would need to go in as a cold outbound message to a named contact (see People, below) |
+| **Invisible Technologies** | [invisibletech.ai/partnerships](https://invisibletech.ai/partnerships) | Generic contact form only |
+
+## Materials to have ready before you reach out
+
+Inferred from what each intake process actually asks for (Mercor/Handshake pages, Scale's booking flow) — none of these companies publish a formal document checklist, so treat this as this vault's synthesis of what the process implies you'll need, not a quoted requirement list:
+
+1. **A one-line description of the organization and the data or expertise on offer** — every intake process (Handshake's form, Scale's call, Mercor's job-posting descriptions of the Data Partnerships Lead role) starts here.
+2. **Data type, scale, and format** — explicitly requested by Handshake's intake form; implicitly needed for Scale's system-by-system data-source list (warehouses, comms tools, work-mgmt, CRM) and for framing a talent-pipeline pitch to Surge (how many people, what credentials, what domains).
+3. **A de-identification / anonymization plan, or willingness to let the buyer handle it** — Scale explicitly does anonymization "inside your environment, before any data is extracted"; Mercor's product page makes the same claim (SOC 2 Type II, 60+ sensitive-identifier detection). You should be ready to describe what needs to be stripped before any sample changes hands.
+4. **Proof of authorization to share the data or represent the talent pool** — none of the primary sources state this explicitly, but every program places compliance responsibility on the contributing party (see "What this doesn't cover yet" below) — have this settled before a scoping call, not during it.
+5. **A simple company-size/scale signal** — Scale states a **40+ employee** preference outright; the others don't publish a threshold but likely apply some informal filter given the operational overhead of vetting a new data source.
+
+## People to target for outreach
+
+Named, publicly-identifiable individuals relevant to brokering these specific deals — each confidence-tagged, since "who currently holds this role" turned out to be much harder to verify than the programs themselves:
+
+| Company | Name | Role | Relevance | Confidence |
+|---|---|---|---|---|
+| **Handshake AI** | **Yang Zhao** | Chief Business Officer | Explicitly "leads all business and operations development" for Handshake AI — the most directly relevant named contact found in this entire pass, for any of the seven companies. Ex-Scale AI (4 years, Head of Product Deployment and Operations). Joined Handshake AI in January (year not specified in source). | HIGH — verified via direct fetch of Handshake's own announcement blog post |
+| **Handshake AI** | **Sahil Bhaiwala** | Chief Strategy and Innovation Officer | Oversees long-term strategy, market positioning, and innovation for the AI org — a secondary contact if Zhao isn't reachable. Also ex-Scale AI (GM, Director of Product & AI). | HIGH — same source |
+| **Scale AI** | **Francis deSouza** | CEO (effective Aug 10, 2026) | Too senior to be a first-touch BD contact for a small deal, but the name to know given how recent the change is — see Leadership update in `Companies/Scale-AI.md` | HIGH — verified via Scale's own announcement |
+| **Scale AI** | Matt Park | Chief Business Officer (dated) | Multiple people-search sources list this title but date the tenure "2017 to 2024" — **likely no longer current**. Not recommended as an active target without independent confirmation. | LOW / possibly outdated |
+| **Surge AI** | **Edwin Chen** | Founder & CEO | With no distinct BD organization found and only ~110–121 employees total, Chen himself is plausibly still the actual decision-maker for anything beyond routine individual hiring — consistent with the "no self-serve program" finding above. | MED — inference from company size, not a direct statement that Chen personally handles this |
+| **Mercor** | *None identified* | Data Partnerships Lead / Healthcare Data Partnerships Lead (open reqs) | Both roles were **actively-hiring job postings** as of this search, not filled positions with a named, findable occupant — meaning either the roles are newly created or the current holder isn't publicly indexed. Sundeep Jain (President) is the most senior named executive with a plausible ops/product remit this would roll up to, but that reporting line is this vault's inference, not a confirmed org-chart fact. | LOW — no confirmed named individual |
+| **Invisible Technologies, Turing** | *None identified* | — | No named BD/partnerships individuals surfaced in this pass for either company. | Not found |
+
+**Read on this table honestly:** for four of the seven companies (Mercor, Scale AI post-transition, Invisible Technologies, Turing), there is no confirmed, current, named point of contact to cold-outreach — the *programs* are real and documented above, but the *people* running them are not all publicly identifiable right now. Handshake AI is the one clear exception: Yang Zhao is a strong, well-sourced, senior target. Don't over-rely on LinkedIn/people-search aggregator data for the others without a fresher check closer to actual outreach time, since (as the Scale AI CEO change above shows) these roles turn over faster than search indexes catch up.
 
 ## Corrected ranking
 
@@ -56,6 +94,11 @@ A network of former DoD program managers, contracting officers, acquisition prof
 - [Invisible Technologies — Partnerships](https://invisibletech.ai/partnerships) — verified, fetched
 - [Surge AI — Workforce](https://surgehq.ai/workforce) — verified, fetched (previously, Pass 4)
 - Search results only for Turing partner-program claims — not resolved to a verified primary source for Turing.com specifically; flagged above
+- [Mercor — Data Partnership Lead job posting](https://jobs.ashbyhq.com/mercor/dbf687c6-4d7e-4c56-a82e-a8b304e2a4e3) — link found via search, not independently fetched (dynamic content) — Pass 6
+- [Mercor — Healthcare Data Partnerships Lead job posting](https://jobs.ashbyhq.com/mercor/8b040903-f37d-4bdb-86d3-049227f12669) — link found via search, not independently fetched — Pass 6
+- [Handshake AI — Welcoming Sahil Bhaiwala and Yang Zhao](https://joinhandshake.com/blog/our-team/welcoming-sahil-bhaiwala-and-yang-zhao-to-handshake-ai/) — verified, fetched — Pass 6
+- [Scale AI — Scale Appoints Francis deSouza as CEO](https://scale.com/blog/scale-appoints-new-ceo) — verified, fetched — Pass 6
+- Search results only (people-search aggregators: Crunchbase, Wiza, ZoomInfo) for Matt Park's Scale AI CBO tenure dates — not independently fetched, flagged as possibly outdated — Pass 6
 
 ## What this doesn't cover yet
 
