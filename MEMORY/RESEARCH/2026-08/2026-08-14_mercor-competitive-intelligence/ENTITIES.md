@@ -2,7 +2,7 @@
 
 Status legend: **RESEARCHED** (profile file exists, sourced), **RESEARCHED (light)** (profile exists but thin — candidate for deeper pass), **PENDING** (identified, not yet profiled), **SKIP** (deliberately out of scope, reason given).
 
-Last updated: 2026-08-14 (Pass 4 — talent-market segmentation added across all 7 companies; see "Talent Market Focus" section in each Companies/*.md file and the comparison table in LANDSCAPE.md)
+Last updated: 2026-08-14 (Pass 5 — verified go-to-market analysis for selling data/expertise into this market added as [SELLING-STRATEGY.md](SELLING-STRATEGY.md); Pass 4 added talent-market segmentation across all 7 companies)
 
 ## Companies
 

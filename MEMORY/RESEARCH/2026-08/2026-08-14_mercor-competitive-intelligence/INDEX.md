@@ -2,7 +2,7 @@
 
 **Focus entity:** Mercor (mercor.com) — AI expert-data / human-feedback marketplace
 **Vault opened:** 2026-08-14
-**Status:** Pass 4 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor; Pass 4 added talent-market segmentation across all 7 companies (see below)
+**Status:** Pass 5 complete — breadth and depth gates both MET; Pass 3 added a full business-model/GTM/revenue/product/metrics deep dive on Mercor; Pass 4 added talent-market segmentation across all 7 companies; Pass 5 added a verified go-to-market analysis for selling data/expertise into these companies (see below)
 **Requester:** savan@lifebetweentitles.com
 **Companion site:** [Competitive dossier (deployed)](https://mercor-competitive-dossier-ogpvg.ondigitalocean.app) — condensed public-facing summary of this vault
 
@@ -10,6 +10,7 @@
 
 - [SUMMARY.md](SUMMARY.md) — the 5-minute version
 - [LANDSCAPE.md](LANDSCAPE.md) — the full synthesized narrative
+- [SELLING-STRATEGY.md](SELLING-STRATEGY.md) — verified go-to-market analysis: how to actually sell data/expertise into Mercor, Scale AI, Handshake AI, and others
 - [ENTITIES.md](ENTITIES.md) — every entity in scope, with RESEARCHED/PENDING/SKIP status and gate tracking
 
 ## Companies
@@ -104,3 +105,14 @@ Requested directly: where each company focuses in terms of the market it's tackl
 - **Invisible Technologies** — doesn't brand a talent tier at all; sells process/managed-service maturity instead.
 
 Full detail and per-company sourcing in each `Companies/*.md` file and the new table in `LANDSCAPE.md`.
+
+## Iteration 5 — selling data/expertise into this market
+
+Requested directly: expand on ways to sell data into these companies, working from a draft analysis the requester shared that claimed specific vendor programs at Mercor, Surge AI, and Handshake. Rather than take those claims at face value, I independently verified each against primary sources — full writeup and corrected ranking in **[SELLING-STRATEGY.md](SELLING-STRATEGY.md)**. Headlines:
+
+- **Confirmed and quantified:** Mercor Data (referral bonus up to $100K) and — newly found, not in the shared draft — **Scale AI's Data Partnership program** ($10K–$1M+ per deal, $10K flat referral bonus, explicit data-source list, 40+-employee target). These two are the clearest, most concrete entry points.
+- **Confirmed but opaque on price:** Handshake AI's Data Partnerships program is real (verified) but publishes no compensation figures — more friction than the draft's framing suggested.
+- **Correction:** the claimed Surge AI "Consulting Program" for selling expert pipelines could not be verified — what exists is Surge's normal individual-expert hiring page, not a company-level vendor program. Selling Surge anything would mean cold BD, not a self-serve process.
+- Also checked and found **no verifiable program** for Turing.com specifically (a same-named but likely-unrelated "Turing.ai" surfaced in search — flagged so it isn't confused with the Turing profiled elsewhere in this vault), and found Invisible Technologies' "Partnerships" page to be a generic, terms-free contact form.
+
+The illustrative defense/DoD expert-network example from the shared draft is preserved in `SELLING-STRATEGY.md` as a worked example of the "talent pipeline" strategy, explicitly flagged as illustrative rather than a confirmed opportunity.

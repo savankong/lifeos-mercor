@@ -11,8 +11,15 @@ Invisible Technologies, founded in **2015**, is an older human-in-the-loop / AI-
 ## Scale & Financials
 
 - Total raised: **$144M** as of February 2026, including a **$100M round in September 2025**.
+- Revenue: **~$134M in 2024** (per iteration-5 search finding) — this is revenue, distinct from the total-raised figure above; the two should not be conflated.
+- Clients reportedly include Microsoft, Cohere, and AWS.
+- A cofounder has publicly stated the company is committed to **staying independent** — explicit neutrality positioning, the same argument Mercor/Surge/Turing make against Scale AI post-Meta-deal.
 
-*(MED — single-source figure, not independently fetched this pass)*
+*(MED — single-source figures for both total-raised and revenue, not independently fetched this pass — search-result synthesis only)*
+
+## Data-Partnership / Vendor Program
+
+Runs a generic ["Partnerships"](https://invisibletech.ai/partnerships) landing page (verified via direct fetch) — a contact form asking "where do you see opportunities for partnership?" with no published terms, pricing, or program structure. Unlike Mercor and Scale AI (both of which publish explicit referral-bonus figures and deal-value ranges), Invisible Technologies discloses nothing publicly — any engagement would start as an undifferentiated sales conversation. See `../SELLING-STRATEGY.md` for the full cross-company comparison.
 
 ## Talent Market Focus
 
