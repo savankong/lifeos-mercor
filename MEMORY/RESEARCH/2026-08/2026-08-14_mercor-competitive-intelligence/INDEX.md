@@ -10,6 +10,7 @@
 
 ## Read this first
 
+- **[YOUR-ROSTER-BROKER-ANGLES.md](YOUR-ROSTER-BROKER-ANGLES.md)** — concrete partnership angles for Innodata specifically, given a personal relationship there; the cleared-federal-teams finding makes it the best-fit government-angle conversation in this whole vault
 - **[YOUR-ROSTER-GOVERNMENT-DEMAND-ANALYSIS.md](YOUR-ROSTER-GOVERNMENT-DEMAND-ANALYSIS.md)** — does Anthropic/OpenAI demand for government-employee knowledge actually exist? Direct answer, with a live Pentagon/Anthropic-ban episode and a China-exposure controversy neither prior pass had surfaced
 - **[YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md](YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md)** — direct assessment: can Your Roster compete as a seller of user-answered-question data? Four structural obstacles, bottom line
 - **[YOUR-ROSTER-OPPORTUNITY.md](YOUR-ROSTER-OPPORTUNITY.md)** — why this labor-market vertical fits Your Roster's actual product, the target-company/ATS matrix, and the alumni-network finding
@@ -27,6 +28,7 @@
 - [Micro1](Companies/Micro1.md) — HIGH
 - [Handshake (Handshake AI)](Companies/Handshake-AI.md) — HIGH
 - [Turing](Companies/Turing.md) — HIGH
+- [Innodata](Companies/Innodata.md) — HIGH, publicly traded, secondary competitor with a plausible partnership angle
 - [Invisible Technologies](Companies/Invisible-Technologies.md) — MEDIUM (light profile)
 - Snorkel AI — PENDING, see ENTITIES.md
 
@@ -161,6 +163,10 @@ A follow-up plan refined Path A into a specific brokerage structure ("I source p
 ## Iteration 12 — does Anthropic/OpenAI demand for government expertise actually exist?
 
 Requested directly: a deep analysis of whether ChatGPT/OpenAI and Anthropic have real demand for government employees and their knowledge — the load-bearing question behind the defense/government wedge floated in Passes 5 and 11. Live web research found the picture splits into five distinct findings, not a simple yes: **(1)** labs selling AI products *to* government is huge and currently extremely volatile — Anthropic had a $200M DoD contract and was then banned from federal use on Feb 27, 2026 over an autonomous-weapons/surveillance policy dispute, with OpenAI taking over the Pentagon relationship; **(2)** both labs do directly hire cleared, former-government individuals, but as named W-2 employees in senior policy/safety/compliance roles (one Anthropic role pays up to $455K), not via a marketplace; **(3)** Mercor, Surge AI, and especially Scale AI already hold direct government/defense contracts themselves (Scale alone has $300M+, including the DIU's Thunderforge program) — meaning any broker would be competing against incumbents who already have the government trust relationships; **(4)** a live, unresolved controversy — Surge AI and Mercor reportedly also sell training data to Chinese labs including a Pentagon-designated Chinese military company, drawing public criticism from Scale AI's founder; **(5)** neither Mercor's nor Handshake AI's public expert marketplace lists a government/defense category at all, strongly suggesting their actual government-contract work runs through a separate, closed, clearance-gated pipeline rather than an open sign-up model. Net effect: real demand exists, but not in the scalable, open-marketplace form the broker pitch needed — softens the defense/government wedge without eliminating it. Full detail in `YOUR-ROSTER-GOVERNMENT-DEMAND-ANALYSIS.md`.
+
+## Iteration 13 — Innodata: competitor or partner?
+
+Requested directly, with a wrinkle: the requester has a personal relationship at Innodata and wants partnership angles, not just a competitive profile. Added `Companies/Innodata.md` — a publicly traded (NASDAQ: INOD), decades-old data-engineering company, ~40%+ revenue growth guided for 2026, customer concentration improving fast (56%→37% on its top account across two quarters), new Palantir partnership (overlapping with the Anthropic/DoD research from Pass 12). First-pass research called it purely a competitor; a deeper look reversed that partially — **Innodata runs a real "SME on Demand" external-contributor program and explicitly maintains security-cleared federal teams**, a capability neither Mercor nor Handshake shows any public evidence of. That makes it the one company in this entire vault with a plausible, existing channel for the government/defense angle raised in Pass 11–12. `YOUR-ROSTER-BROKER-ANGLES.md` lays out five concrete angles, ordered by evidentiary support — SME-on-demand supply, the cleared-federal-teams/government angle, using Your Roster's own warm-intro tech as a sales tool *for* Innodata rather than a data supplier *to* it, vertical-specific sourcing (Innodata names healthcare/finance/legal and runs a medical-record platform, Synodex), and pre-launch positioning on Innodata's announced-but-unreleased GenAI platform.
 
 ## Vault history at a glance
 
