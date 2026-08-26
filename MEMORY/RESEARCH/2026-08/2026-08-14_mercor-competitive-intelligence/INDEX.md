@@ -10,6 +10,7 @@
 
 ## Read this first
 
+- **[YOUR-ROSTER-PIVOT-GOVERNMENT-NETWORK.md](YOUR-ROSTER-PIVOT-GOVERNMENT-NETWORK.md)** — the confirmed pivot: Your Roster is now positioning around a network of high-net-worth former government officials, with first outreach to Innodata already sent
 - **[YOUR-ROSTER-BROKER-ANGLES.md](YOUR-ROSTER-BROKER-ANGLES.md)** — concrete partnership angles for Innodata specifically, given a personal relationship there; the cleared-federal-teams finding makes it the best-fit government-angle conversation in this whole vault
 - **[YOUR-ROSTER-GOVERNMENT-DEMAND-ANALYSIS.md](YOUR-ROSTER-GOVERNMENT-DEMAND-ANALYSIS.md)** — does Anthropic/OpenAI demand for government-employee knowledge actually exist? Direct answer, with a live Pentagon/Anthropic-ban episode and a China-exposure controversy neither prior pass had surfaced
 - **[YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md](YOUR-ROSTER-DATA-BUSINESS-ASSESSMENT.md)** — direct assessment: can Your Roster compete as a seller of user-answered-question data? Four structural obstacles, bottom line
@@ -167,6 +168,10 @@ Requested directly: a deep analysis of whether ChatGPT/OpenAI and Anthropic have
 ## Iteration 13 — Innodata: competitor or partner?
 
 Requested directly, with a wrinkle: the requester has a personal relationship at Innodata and wants partnership angles, not just a competitive profile. Added `Companies/Innodata.md` — a publicly traded (NASDAQ: INOD), decades-old data-engineering company, ~40%+ revenue growth guided for 2026, customer concentration improving fast (56%→37% on its top account across two quarters), new Palantir partnership (overlapping with the Anthropic/DoD research from Pass 12). First-pass research called it purely a competitor; a deeper look reversed that partially — **Innodata runs a real "SME on Demand" external-contributor program and explicitly maintains security-cleared federal teams**, a capability neither Mercor nor Handshake shows any public evidence of. That makes it the one company in this entire vault with a plausible, existing channel for the government/defense angle raised in Pass 11–12. `YOUR-ROSTER-BROKER-ANGLES.md` lays out five concrete angles, ordered by evidentiary support — SME-on-demand supply, the cleared-federal-teams/government angle, using Your Roster's own warm-intro tech as a sales tool *for* Innodata rather than a data supplier *to* it, vertical-specific sourcing (Innodata names healthcare/finance/legal and runs a medical-record platform, Synodex), and pre-launch positioning on Innodata's announced-but-unreleased GenAI platform.
+
+## Iteration 14 — the pivot is confirmed, first outreach sent
+
+The founder confirmed Your Roster's network of high-net-worth former government officials is real and is proceeding on that basis — this is now the company's stated direction, not a hypothesis this vault is still testing. Drafted a formal outreach email to the Innodata contact from Pass 13, leading directly with the network/expertise claim and proposing a call to find Innodata's actual capacity gaps rather than presuming them. `YOUR-ROSTER-PIVOT-GOVERNMENT-NETWORK.md` records the pivot and this first action. The structural cautions from Passes 10–12 (ask what the buyer can't source before pitching; the buyer can be structurally also the competitor; the trust/provenance bar is high and rising given the live Pentagon/Anthropic conflict and the Surge/Mercor China-data controversy) still apply and are carried forward rather than dropped.
 
 ## Vault history at a glance
 
