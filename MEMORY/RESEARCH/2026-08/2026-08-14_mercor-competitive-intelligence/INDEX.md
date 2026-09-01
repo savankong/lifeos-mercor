@@ -10,6 +10,7 @@
 
 ## Read this first
 
+- **[Trends/Medical-Data-Supply-Chain.md](Trends/Medical-Data-Supply-Chain.md)** — who actually sells medical data to the AI labs, split into three tracks: expert-judgment vendors (the relevant comp set for Your Roster), structured clinical/EHR data platforms (a different, harder business), and labs acquiring data capability outright (Torch Health)
 - **[YOUR-ROSTER-FUNDING-MEMO.md](YOUR-ROSTER-FUNDING-MEMO.md)** — primary-source summary of Your Roster's actual funding memo: dual revenue model, named-colleague verification as the real wedge, founder's DoD background, and the true addressable market (1.3–5.1M cleared professionals) — supersedes/grounds the earlier illustrative government framing
 - **[YOUR-ROSTER-PIVOT-GOVERNMENT-NETWORK.md](YOUR-ROSTER-PIVOT-GOVERNMENT-NETWORK.md)** — the confirmed pivot: Your Roster is now positioning around a network of high-net-worth former government officials, with first outreach to Innodata already sent
 - **[YOUR-ROSTER-BROKER-ANGLES.md](YOUR-ROSTER-BROKER-ANGLES.md)** — concrete partnership angles for Innodata specifically, given a personal relationship there; the cleared-federal-teams finding makes it the best-fit government-angle conversation in this whole vault
@@ -31,6 +32,7 @@
 - [Handshake (Handshake AI)](Companies/Handshake-AI.md) — HIGH
 - [Turing](Companies/Turing.md) — HIGH
 - [Innodata](Companies/Innodata.md) — HIGH, publicly traded, secondary competitor with a plausible partnership angle
+- [Centaur Labs](Companies/Centaur-Labs.md) — HIGH, healthcare-only specialist, the closest "medical-only Mercor" analog found
 - [Invisible Technologies](Companies/Invisible-Technologies.md) — MEDIUM (light profile)
 - Snorkel AI — PENDING, see ENTITIES.md
 
@@ -177,6 +179,10 @@ The founder confirmed Your Roster's network of high-net-worth former government 
 ## Iteration 15 — the funding memo, healthcare, and updating the live site
 
 Requested directly: add government + healthcare as the "high-compliance industries" wedge to the deployed dossier, bake in Your Roster's actual funding memo, and remove the "Assessment: Can Your Roster Compete as a Data Seller?" section from the live site. Fetched the memo directly (Google Docs export) — see `YOUR-ROSTER-FUNDING-MEMO.md` for the full summary and reconciliation against what this vault had previously assumed. Headline finding: the memo reveals the government wedge was never actually a hypothesis lacking evidence — CEO Savan Kong is a former DoD Customer Experience Officer, which is the real basis Pass 5's illustrative example had been standing in for. It also reveals a specific, previously-unresearched mechanism — **credential verification through named colleagues**, not AI scoring — which directly answers the "no identified wedge" gap this vault flagged in Pass 10. Corrected the record where the memo's actual addressable market (1.3–5.1M federal employees and GovCon contractors, not specifically "high-net-worth officials") differs from the framing used in the Pass 14 Innodata outreach email, without erasing that history. Added healthcare as the second high-compliance vertical, grounded in evidence already in this vault (Mercor's healthcare job listings, Innodata's Synodex platform). Updated the live site: removed the data-seller-assessment section entirely, added a featured "wedge" card in the Your Roster's Fit section with the real TAM figures, updated hero/eyebrow/footer copy accordingly.
+
+## Iteration 16 — who actually sells medical data to the buyers?
+
+Requested directly, mirroring the government-demand question from Pass 12: "medical data" splits into three distinct tracks, not one market. **Track 1 (expert judgment/RLHF)** is the relevant comp set for Your Roster's healthcare wedge — Mercor runs a dedicated Physician Talent Network ($110–250/hr for MDs, verified via direct fetch), and a new healthcare-only specialist competitor was found and profiled: **Centaur Labs** (58,000+ medical professionals, peer-reviewed accuracy claims from Memorial Sloan Kettering/Mass General Brigham), plus AfterQuery (the same multi-domain vendor flagged in Pass 12 for its Chinese-labs revenue). **Track 2 (structured clinical/EHR/claims data — Truveta, Datavant, Komodo Health, HealthVerity, IQVIA)** is a fundamentally different, much larger, pharma-facing business, not a realistic near-term comparison. **Track 3** is a real consolidation risk worth naming: OpenAI acquired health-data startup Torch Health for a reported $60–100M in January 2026 and folded it directly into ChatGPT Health — the same "labs prefer to buy the capability outright once it's proven" pattern found in the government research. Full detail in `Trends/Medical-Data-Supply-Chain.md`.
 
 ## Vault history at a glance
 
